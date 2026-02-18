@@ -1,0 +1,106 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+.login-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  z-index: 0;
+}
+
+.login-card {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.login-card h2 {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.login-card .form-control {
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+.login-card .form-control:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 8px rgba(37, 117, 252, 0.5);
+  outline: none;
+}
+
+.login-card .btn-primary {
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  background: #2575fc;
+  border: none;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.login-card .btn-primary:hover {
+  background: #1a5bd8;
+}
+
+.text-danger {
+  margin-bottom: 1rem;
+}
+
+.register-link {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.register-link a {
+  color: #133fce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.SSO-link {
+  margin-top: -1rem;
+  margin-bottom: -1.5rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.SSO-link a {
+  color: #133fce;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}

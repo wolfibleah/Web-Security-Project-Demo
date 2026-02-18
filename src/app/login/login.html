@@ -1,0 +1,43 @@
+<div class="login-page">
+  <div class="login-card">
+    <h2>Autentificare</h2>
+
+    <form (ngSubmit)="onSubmit()">
+      <input
+        type="text"
+        name="username"
+        [(ngModel)]="username"
+        class="form-control"
+        placeholder="Utilizator"
+        required
+      />
+
+      <input
+        type="password"
+        name="password"
+        [(ngModel)]="password"
+        class="form-control"
+        placeholder="Parolă"
+        required
+      />
+
+      <div *ngIf="errorMessage" class="text-danger">
+        {{ errorMessage }}
+      </div>
+
+      <button type="submit" class="btn btn-primary" [disabled]="!username || !password">
+        Login
+      </button>
+
+      <div class="register-link">
+        <p>Nu ai cont? <a routerLink="/register">Creează unul aici.</a></p>
+      </div>
+      <div class="SSO-link">
+        <p>
+          Autentificare prin
+          <a (click)="loginSSO()">SSO.</a>
+        </p>
+      </div>
+    </form>
+  </div>
+</div>

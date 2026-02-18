@@ -1,0 +1,33 @@
+<div class="account-page">
+  <nav class="top-menu">
+    <button (click)="goHome()">Home</button>
+    <button (click)="goToSearch()">Search</button>
+    <button (click)="logout()">Logout</button>
+    <div class="profile-pic-container">
+      <img
+        *ngIf="profileImageUrl"
+        [src]="profileImageUrl"
+        alt="Profile Picture"
+        class="profile-pic"
+        (click)="openImageModal()"
+        (error)="profileImageUrl = ''"
+      />
+    </div>
+  </nav>
+
+  <div class="account-card">
+    <h2>Bun venit, {{ username }}!</h2>
+  </div>
+
+  <div class="image-modal" *ngIf="showImageModal" (click)="closeImageModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <span class="close-btn" (click)="closeImageModal()">&times;</span>
+      <img
+        *ngIf="profileImageUrl"
+        [src]="profileImageUrl"
+        alt="Profile Picture - Full View"
+        class="modal-image"
+      />
+    </div>
+  </div>
+</div>

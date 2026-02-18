@@ -1,0 +1,11 @@
+Lab07 - XSS persistent
+1. Este nevoie de AJAX pentru atac persistent?
+Nu. Atacul XSS persistent functioneaza fara AJAX deoarece codul malitios este stocat in baza de date a serverului,
+iar browserul il executa automat la incarcarea paginii.
+AJAX este utilizat doar pentru exfiltrarea datelor victimei catre serverul atacatorului.
+
+2. Verificați log-urile de la serverul țintă și studiați tab-ul Network de la Developer tools (F12) ale browserului. Cum arată cererea făcută de către browser?
+In tab-ul Network se observa ca la accesarea paginii /allusers, browserul victimei face o cerere GET catre serverul tinta.
+Raspunsul HTML contine username-uri afisate fara sanitizare, inclusiv un tag <script> injectat. 
+Browserul incarca automat fisierul malitios.js de pe serverul atacatorului, iar scriptul trimite datele victimei prin cereri POST catre endpoint-ul /api/date. 
+Acest comportament confirma existenta unui atac XSS persistent.

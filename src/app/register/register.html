@@ -1,0 +1,188 @@
+<div class="register-page">
+  <div class="register-form">
+    <h2>Formular de înregistrare</h2>
+
+    <form (ngSubmit)="onSubmit()" #form="ngForm" novalidate>
+      <div class="mb-4">
+        <label for="username" class="form-label">Nume utilizator</label>
+        <input
+          id="username"
+          name="username"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.username"
+          required
+          #username="ngModel"
+          minlength="5"
+          maxlength="20"
+          pattern="^[a-zA-Z0-9_]+$"
+        />
+        <div *ngIf="username.invalid && username.touched" class="text-danger">
+          Username invalid!
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.email"
+          required
+          minlength="3"
+          maxlength="50"
+          #email="ngModel"
+        />
+        <div class="text-danger" *ngIf="email.touched && email.errors">
+          <div *ngIf="email.errors['required']">Email obligatoriu</div>
+          <div *ngIf="email.errors['email']">Format email invalid</div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="password">Parolă</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.password"
+          required
+          #password="ngModel"
+          pattern="^(?=.*[A-Z])(?=.*\d).{8,}$"
+          minlength="8"
+          maxlength="50"
+        />
+        <div *ngIf="password.touched && password.errors" class="text-danger">
+          <div *ngIf="password.errors['required']">Parola este obligatorie</div>
+          <div *ngIf="password.errors['minlength']">Minim 8 caractere</div>
+          <div *ngIf="password.errors['pattern']">Trebuie să conțină o literă mare și o cifră</div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="confirm">Confirmare parolă</label>
+        <input
+          id="confirm"
+          name="confirm"
+          type="password"
+          class="form-control form-control-lg"
+          [(ngModel)]="confirmPassword"
+          required
+          #confirm="ngModel"
+        />
+        <div *ngIf="confirm.touched && user.password !== confirmPassword" class="text-danger">
+          Parolele nu coincid
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="lastName">Nume</label>
+        <input
+          id="lastName"
+          name="lastName"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.lastName"
+          required
+          #lastname="ngModel"
+          minlength="3"
+          maxlength="30"
+          pattern="^[a-zA-ZăâîșțĂÂÎȘȚ \-]+$"
+        />
+        <div *ngIf="lastname.touched && lastname.errors" class="text-danger">
+          <div *ngIf="lastname.errors['required']">Numele este obligatoriu</div>
+          <div *ngIf="lastname.errors['minlength']">Minim 3 caractere</div>
+          <div *ngIf="lastname.errors['pattern']">Doar litere sunt permise</div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="firstName">Prenume</label>
+        <input
+          id="firstName"
+          name="firstName"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.firstName"
+          required
+          #firstname="ngModel"
+          minlength="3"
+          maxlength="30"
+          pattern="^[a-zA-ZăâîșțĂÂÎȘȚ \-]+$"
+        />
+        <div *ngIf="firstname.errors && firstname.touched" class="text-danger">
+          <div *ngIf="firstname.errors['required']">Prenumele este obligatoriu.</div>
+          <div *ngIf="firstname.errors['minlength']">Minim 3 caractere.</div>
+          <div *ngIf="firstname.errors['pattern']">Doar litere sunt permise.</div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="displayName">Nume afișat</label>
+        <input
+          id="displayName"
+          name="displayName"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.displayName"
+          required
+          #displayName="ngModel"
+          minlength="2"
+          maxlength="30"
+          pattern="^[a-zA-ZăâîșțĂÂÎȘȚ \-]+$"
+        />
+        <div *ngIf="displayName.invalid && displayName.touched" class="text-danger">
+          Nume complet invalid!
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="url">Adresă URL site propriu</label>
+        <input
+          id="url"
+          name="url"
+          type="url"
+          class="form-control form-control-lg"
+          [(ngModel)]="user.url"
+          pattern="^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}(\/.*)?$"
+          maxlength="200"
+          required
+          #url="ngModel"
+        />
+        <div *ngIf="url.touched && url.errors" class="text-danger">
+          URL invalid (ex: https://site.ro)
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="profileImage">Imagine de profil</label>
+        <input
+          id="profileImage"
+          type="file"
+          class="form-control form-control-lg"
+          accept="image/*"
+          (change)="onFileSelected($event)"
+        />
+        <div *ngIf="imageError" class="text-danger">
+          {{ imageError }}
+        </div>
+      </div>
+
+      <button
+        class="btn btn-primary btn-lg w-100"
+        type="submit"
+        [disabled]="
+          form.invalid || user.password !== confirmPassword || imageError || !selectedFile
+        "
+      >
+        Înregistrează-te
+      </button>
+    </form>
+
+    <div class="text-success" *ngIf="messageSuccess">
+      {{ messageSuccess }}
+    </div>
+    <div class="text-danger" *ngIf="messageError">
+      {{ messageError }}
+    </div>
+  </div>
+</div>

