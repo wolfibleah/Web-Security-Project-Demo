@@ -85,4 +85,3 @@ This project is a full-stack web security demonstration showcasing both offensiv
 ## Educational Purpose
 
 This project is strictly for educational use. It provides hands-on experience with both attacking and securing web applications in a controlled environment.
->>>>>>> 75c9f8714014d94a736f597a0ea1669efe3dd3f7
